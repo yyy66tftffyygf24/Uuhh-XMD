@@ -100,7 +100,7 @@ You will need a session ID to run the VORTEX-XMD. Click the button below to obta
 <p style="text-align: center; font-size: 1.2em;">
 
 
-***[![Deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://vortex-hanstz.vercel.app)***
+***[![Deploy on heroku](https://dashboard.heroku.com/new?template=https://github.com/pkdriller/NEXUS-XMD/tree/main)***
 
 ----------
 
@@ -129,7 +129,7 @@ You will see a dashboard of bots listed
 
 
 Click next , next
-Until you see VORTEX MD
+Until you see NEXUS MD
 Then click on it
 
 You will be asked to fill in some stuffs like your session Id , and other stuffs on how you want your bot to be ( bot settings ) , it's not hard I added examples
@@ -148,7 +148,7 @@ It will show
 
 That's all bot connected
 
-`HANSTZ TECH`</h6>
+`PK DRILLER`</h6>
 </details>
 
 --------------
@@ -159,7 +159,7 @@ That's all bot connected
 
 
 <p align="center">
-<a href='https://app.koyeb.com/services/deploy?type=git&repository=Mrhanstz/VORTEX-XMD&ports=3000&env[PREFIX]=.&env[SESSION_ID]=&env[ALWAYS_ONLINE]=false&env[MODE]=public&env[AUTO_STATUS_MSG]=Seen%20status%20by%20SUBZERO-MD&env[AUTO_STATUS_REPLY]=false&env[AUTO_STATUS_SEEN]=true&env[AUTO_TYPING]=false&env[ANTI_LINK]=true&env[AUTO_REACT]=false&env[READ_MESSAGE]=false' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-koyeb ‎ deploy-FF009D?style=for-the-badge&logo=koyeb&logoColor=white'/< width=150 height=28/p></a>
+<a href='https://app.koyeb.com/services/deploy?type=git&repository=pkdriller/NEXUS-XMD&ports=3000&env[PREFIX]=.&env[SESSION_ID]=&env[ALWAYS_ONLINE]=false&env[MODE]=public&env[AUTO_STATUS_MSG]=Seen%20status%20by%20SUBZERO-MD&env[AUTO_STATUS_REPLY]=false&env[AUTO_STATUS_SEEN]=true&env[AUTO_TYPING]=false&env[ANTI_LINK]=true&env[AUTO_REACT]=false&env[READ_MESSAGE]=false' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-koyeb ‎ deploy-FF009D?style=for-the-badge&logo=koyeb&logoColor=white'/< width=150 height=28/p></a>
 
 -----
 <h4 align="center">4. Railway</h4>
@@ -191,7 +191,7 @@ That's all bot connected
 
 <h3 align="center"> HOW TO DEPLOY ON HUGGING FACE</h3>
 <h6 align-"center">
-*💫 Deploy VORTEX md On Hugging Face For Free !*
+*💫 Deploy Nexus md On Hugging Face For Free !*
 
 `Specs :`
 - v2 CPU
@@ -203,7 +203,7 @@ That's all bot connected
 1. Go to hugginface.co/join and create an account and verify your email too.
 
 `Step 2`
-1. Go to https://huggingface.co/spaces/Mrhanstz/VORTEX-XMD
+1. Go to https://huggingface.co/spaces/pkdriller/NEXUS-XMD
 
 2. Tap on *three dots* _(as shown in image)_
 
@@ -216,9 +216,9 @@ That's all bot connected
 
 ```After that wait 10 seconds & your have deployed it successfuly  for free 24/7```
 
-> CREDITS HANSTZ🎐
+> CREDITS PKDRILLER 🎐
 
-*POWERED By HansTz*</h6>
+*POWERED By PKDRILLER*</h6>
 
 </details>
 
@@ -291,7 +291,7 @@ jobs:
 
 Stay connected with the latest updates and community by joining our official WhatsApp group and channel. You can also contact the owner directly.
 
-[![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vb4a985InlqSS0l3ro3c#N7Mti4kjHnOwhF8PLajt4KvJt_dNPPAeNjgLaszm3po)
+[![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x)
 
 ***
 
@@ -317,11 +317,11 @@ Stay connected with the latest updates and community by joining our official Wha
 ### Thank You Dear
 
 > DEVELOPER OF VORTEX-XMD
-- [HansTz ](https://github.com/Mrhanstz)
+- [HansTz ](https://github.com/pkdriller)
 - Creater and Owner Of VORTEX-XMD
 
-> VORTEX-XMD
-- [Cyber](https://github.com/Mrhanstz)
+> NEXUS-XMD
+- [Cyber](https://github.com/pkdriller)
 - For helping in bot plugin files.
 ---
 
