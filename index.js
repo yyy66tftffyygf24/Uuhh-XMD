@@ -80,7 +80,7 @@ console.log("Session downloaded ✅")
   //=============================================
   
   async function connectToWA() {
-  console.log("Connecting Vortex-Xmd to WhatsApp ⏳️...");
+  console.log("Connecting Nexus-Xmd to WhatsApp ⏳️...");
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
   var { version } = await fetchLatestBaileysVersion()
   
