@@ -54,7 +54,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363352087070233@newsletter',
+                        newsletterJid: '120363288304618280@newsletter',
                         newsletterName: '💫 Nexus xᴍᴅ 💫',
                         serverMessageId: 143
                     }
@@ -129,7 +129,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363352087070233@newsletter',
+                        newsletterJid: '120363288304618280@newsletter',
                         newsletterName: '💫 Nexus xᴍᴅ 💫',
                         serverMessageId: 143
                     }
@@ -208,7 +208,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363352087070233@newsletter',
+                        newsletterJid: '120363288304618280@newsletter',
                         newsletterName: '💫 Nexus xᴍᴅ 💫',
                         serverMessageId: 143
                     }
@@ -274,7 +274,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363352087070233@newsletter',
+                        newsletterJid: '120363288304618280@newsletter',
                         newsletterName: '💫 Nexus xᴍᴅ 💫',
                         serverMessageId: 143
                     }
@@ -334,7 +334,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363352087070233@newsletter',
+                        newsletterJid: '120363288304618280@newsletter',
                         newsletterName: '💫 Nexus xᴍᴅ 💫',
                         serverMessageId: 143
                     }
@@ -387,7 +387,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363352087070233@newsletter',
+                        newsletterJid: '120363288304618280@newsletter',
                         newsletterName: '💫 Nexus xᴍᴅ 💫',
                         serverMessageId: 143
                     }
@@ -447,7 +447,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363352087070233@newsletter',
+                        newsletterJid: '120363288304618280@newsletter',
                         newsletterName: '💫 Nexus xᴍᴅ 💫',
                         serverMessageId: 143
                     }
@@ -497,7 +497,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363352087070233@newsletter',
+                        newsletterJid: '120363288304618280@newsletter',
                         newsletterName: '💫 Nexus xᴍᴅ 💫',
                         serverMessageId: 143
                     }
@@ -567,7 +567,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363352087070233@newsletter',
+                        newsletterJid: '120363288304618280@newsletter',
                         newsletterName: '💫 Nexus xᴍᴅ 💫',
                         serverMessageId: 143
                     }
@@ -618,7 +618,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363352087070233@newsletter',
+                        newsletterJid: '120363288304618280@newsletter',
                         newsletterName: '💫 Nexus xᴍᴅ 💫',
                         serverMessageId: 143
                     }
