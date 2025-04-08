@@ -7,7 +7,7 @@ const createLogo = async (bot, from, message, styleUrl, name) => {
     let apiResponse = await fetchJson(`https://api-pink-venom.vercel.app/api/logo?url=${styleUrl}&name=${name}`);
     await bot.sendMessage(from, {
       'image': { 'url': apiResponse.result.download_url },
-      'caption': "> *©💫 Vᴏʀᴛᴇx xᴍᴅ 💫*"
+      'caption': "> *©💫 Nexus xᴍᴅ 💫*"
     }, { quoted: message });
   } catch (error) {
     console.error(error);
@@ -45,8 +45,8 @@ cmd({
 
 // 3. Command for "Vortex 3D" logo
 cmd({
-  pattern: "vortex3d",
-  'desc': "Create Vortex 3D logo",
+  pattern: "Nexus3d",
+  'desc': "Create Nexus 3D logo",
   'react': '🎗',
   category: "fun",
   'filename': __filename
