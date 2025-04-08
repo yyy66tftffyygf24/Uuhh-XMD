@@ -23,7 +23,7 @@ Dont forget to fork 🍴 & star 🌟 repo😇
 
 --- 
 
-<a><img src='https://files.catbox.moe/tnuula.jpeg'/></a>
+<a><img src='https://i.imgur.com/P2lplQy.jpeg'/></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
