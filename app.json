@@ -4,7 +4,7 @@
   "keywords": ["NEXUS-XMD"],
   
   
-  "logo": "https://files.catbox.moe/tz5um7.jpg",
+  "logo": "https://files.catbox.moe/x9iv4u.jpg",
   "repository": "https://github.com/pkdriller/NEXUS-XMD",
   "succes_url": "/",
 
@@ -19,7 +19,7 @@
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": false,
-      "value": "https://files.catbox.moe/tz5um7.jpg"
+      "value": "https://files.catbox.moe/x9iv4u.jpg"
     }, 
     
     "LIVE_MSG": {
