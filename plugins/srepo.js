@@ -49,7 +49,7 @@ cmd({
     repoInfo += `📝 *Description*: ${repoData.description || "No description provided"}\n`;
     repoInfo += `⭐ *Stars*: ${repoData.stargazers_count}\n`;
     repoInfo += `🍴 *Forks*: ${repoData.forks_count}\n\n`;
-    repoInfo += "> *© Powered By VORTEX TECH*\n";
+    repoInfo += "> *© Powered By NEXUS TECH*\n";
 
     // Send repository info as a message
     await conn.sendMessage(from, { text: repoInfo }, { quoted });
