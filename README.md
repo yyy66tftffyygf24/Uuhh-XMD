@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">💫 NEXUS-XMD 💫</h1>
+  <h1 align="center">💀 NEXUS-XMD 🦜</h1>
 </p>
 
   <p align="center">
@@ -35,7 +35,7 @@ Dont forget to fork 🍴 & star 🌟 repo😇
 ***
 
 <p align="center">
-  <a href="https://github.com/pkdriller"><img title="Developer" src="https://img.shields.io/badge/Author-pk%20driller0-397604.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/pkdriller"><img title="Developer" src="https://img.shields.io/badge/Author-pk%20driller-397604.svg?style=for-the-badge&logo=github" /></a>
 </p>
 
 <div align="center">
