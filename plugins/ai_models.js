@@ -48,7 +48,7 @@ cmd({
         }
 
         // Image AI à envoyer
-        const ALIVE_IMG = 'https://i.ibb.co/BKYt9f00/caseyrhodes-tech.jpg'; // Remplacez par l'URL de votre image AI
+        const ALIVE_IMG = 'https://files.catbox.moe/x9iv4u.jpg'; // Remplacez par l'URL de votre image AI
 
         // Légende avec des informations formatées
         const formattedInfo = `*🤖 ᴄʜᴀᴛ.ɢᴘᴛ ʀᴇsᴘᴏɴsᴇ:*\n\n${gptResponse}`;
@@ -62,7 +62,7 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363352087070233@newsletter',
+                    newsletterJid: '120363288304618280@newsletter',
                     newsletterName: 'Nexus xᴍᴅ ᴀɪ🤖',
                     serverMessageId: 143
                 }
@@ -123,10 +123,10 @@ cmd({
         }
 
         // AI image to attach
-        const AI_IMG = 'https://files.catbox.moe/fvp9bk.jpg'; // Replace with a valid image URL
+        const AI_IMG = 'https://files.catbox.moe/x9iv4u.jpg'; // Replace with a valid image URL
 
         // Formatted response text
-        const formattedInfo = `*🤖 ʟʟᴀᴍᴀ3 ʀᴇsᴘᴏɴsᴇ:*\n\n${llamaResponse}`;
+        const formattedInfo = `*🤖 Nexus response:*\n\n${llamaResponse}`;
 
         // Send the response with an image
         await conn.sendMessage(from, {
@@ -137,8 +137,8 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363352087070233@newsletter',
-                    newsletterName: 'Vortex xᴍᴅ ᴀɪ 🤖',
+                    newsletterJid: '120363288304618280@newsletter',
+                    newsletterName: 'Nexus xᴍᴅ ᴀɪ 🤖',
                     serverMessageId: 143
                 }
             }
