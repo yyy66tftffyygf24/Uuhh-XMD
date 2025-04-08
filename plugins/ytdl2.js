@@ -29,7 +29,7 @@ cmd({
             return reply("Failed to fetch the video. Please try again later.");
         }
         
-        let ytmsg = `╔═══〔 *𓆩ု᪳VORTEX-𝐗𝐌𝐃ှ᪳𓆪* 〕═══❒
+        let ytmsg = `╔═══〔 *𓆩ု᪳NEXUS-𝐗𝐌𝐃ှ᪳𓆪* 〕═══❒
 ║╭───────────────◆  
 ║│ *❍ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*
 ║╰───────────────◆
@@ -41,7 +41,7 @@ cmd({
 ║ ⿻ *ᴀᴜᴛʜᴏʀ:*  ${yts.author.name}
 ║ ⿻ *ʟɪɴᴋ:*  ${yts.url}
 ╚══════════════════❒
-*ғꪮʀ ʏꪮꪊ ғꪮʀ ᴀʟʟ ꪮғ ᴀꜱ 🍉*`;
+*ғꪮʀ ʏꪮꪊ ғꪮʀ ᴀʟʟ  🍉*`;
 
         // Send video details
         await conn.sendMessage(from, { image: { url: data.result.thumbnail || '' }, caption: ytmsg }, { quoted: mek });
@@ -54,7 +54,7 @@ cmd({
             document: { url: data.result.download_url }, 
             mimetype: "video/mp4", 
             fileName: `${data.result.title}.mp4`, 
-            caption: `*${yts.title}*\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs🎐*`
+            caption: `*${yts.title}*\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ NEXUS-XMD🎐*`
         }, { quoted: mek });
 
     } catch (e) {
@@ -90,9 +90,9 @@ const yt = await ytsearch(q);
         return reply("Failed to fetch the audio. Please try again later.");
     }
     
-    let ytmsg = `╔═══〔 *𓆩ု᪳VORTEX-𝐗𝐌𝐃ှ᪳𓆪* 〕═══❒
+    let ytmsg = `╔═══〔 *𓆩ု᪳NEXUS-𝐗𝐌𝐃ှ᪳𓆪* 〕═══❒
 ║╭───────────────◆  
-║│ *VORTEX 𝐒𝐌Ɗ 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐈𝐍𝐆*
+║│ *NEXUS 𝐒𝐌Ɗ 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐈𝐍𝐆*
 ║╰───────────────◆
 ╚══════════════════❒
 ╔══════════════════❒
@@ -117,7 +117,7 @@ const yt = await ytsearch(q);
         document: { url: data.result.downloadUrl }, 
         mimetype: "audio/mpeg", 
         fileName: `${data.result.title}.mp3`, 
-        caption: `> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs🎐*`
+        caption: `> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ NEXUS-XMD🎐*`
     }, { quoted: mek });
 
 } catch (e) {
