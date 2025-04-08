@@ -22,7 +22,7 @@ Dont forget to fork 🍴 & star 🌟 repo😇
 
 <p align="center">
   <a href="https://github.com/pkdriller">
-    <img src="http://readme-typing-svg.herokuapp.com?color=blue&center=true&vCenter=true&multiline=false&lines=NEXUS-XMD-XMD+MultiDevice;Developed+by+pk-driller;Give+star+and+fork+this+Repo+bro+🌟" alt="pkdrillereadme">
+    <img src="http://readme-typing-svg.herokuapp.com?color=blue&center=true&vCenter=true&multiline=false&lines=NEXUS-XMD+MultiDevice;Developed+by+pk-driller;Give+star+and+fork+this+Repo+bro+🌟" alt="pkdrillereadme">
   </a>
 </p>
 
