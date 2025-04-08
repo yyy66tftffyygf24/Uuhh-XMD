@@ -333,7 +333,7 @@ Stay connected with the latest updates and community by joining our official Wha
 <br>
 
 ```
-Thank you my brother mr hanstz
+
 ```
 -----
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
