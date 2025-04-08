@@ -17,7 +17,7 @@ cmd({
     return reply("Please provide a title or link (Spotify/YouTube)!");
   }
 
-  reply("> Vortex xᴍᴅ🫅ɪs ғᴇᴛᴄʜɪɴɢ ᴀᴜᴅɪᴏ... 🎧");
+  reply("> Nexus xᴍᴅ🫅ɪs ғᴇᴛᴄʜɪɴɢ ᴀᴜᴅɪᴏ... 🎧");
 
   let spotifySent = false;
   let youtubeSent = false;
@@ -43,7 +43,7 @@ cmd({
           contextInfo: {
             externalAdReply: {
               title: spotifyTrack.title,
-              body: "Vortex xᴍᴅ🫅 🥰💖: sᴘᴏᴛɪғʏ",
+              body: "Nexus xᴍᴅ🫅 🥰💖: sᴘᴏᴛɪғʏ",
               mediaType: 1,
               sourceUrl: spotifyTrack.url,
               renderLargerThumbnail: true
@@ -76,7 +76,7 @@ cmd({
           contextInfo: {
             externalAdReply: {
               title: youtubeVideo.title,
-              body: "Vortex xᴍᴅ🫅🥰: ʏᴏᴜᴛᴜʙᴇ",
+              body: "Nexus xᴍᴅ🫅🥰: ʏᴏᴜᴛᴜʙᴇ",
               mediaType: 1,
               sourceUrl: youtubeVideo.url,
               renderLargerThumbnail: true
