@@ -1,11 +1,11 @@
 
 {
-    "bot-name": "VORTEX-XMD",
-    "description": "Whiskey Sockets Baileys Whatsapp bot By Mr HansTz",
-    "logo": "https://i.ibb.co/WNzz5RJV/lordcasey.jpg",
+    "bot-name": "NEXUS-XMD",
+    "description": "Whiskey Sockets Baileys Whatsapp bot By pkdriller",
+    "logo": "https://files.catbox.moe/fvp9bk.jpg",
     "keywords": ["bot"],
     "documentation-link": "https://vortex-xmd-session-site.onrender.com/",
-    "owner-verification": "hanstzgames@gmail.com",
+    "owner-verification": "benardwachira@gmail.com",
   
     "env": {
       "SESSION_ID": {
@@ -64,14 +64,14 @@
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "255760774888"
+      "value": "254785392165"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "VORTEX-XMD"
+      "value": "NEXUS-XMD"
 
       }, 
 
