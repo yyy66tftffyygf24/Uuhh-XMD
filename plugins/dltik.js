@@ -52,7 +52,7 @@ cmd({
       }
     }
   } catch (_0x56bda5) {
-    console.error("𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃 Error in TikTok command:", _0x56bda5);
-    _0x2303a0("𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃 An error occurred while processing your request. Please try again later.");
+    console.error("NEXUS-𝐗𝐌𝐃 Error in TikTok command:", _0x56bda5);
+    _0x2303a0("NEXUS-𝐗𝐌𝐃 An error occurred while processing your request. Please try again later.");
   }
 });
