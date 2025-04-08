@@ -78,14 +78,14 @@ You will need a session ID to run the VORTEX-XMD. Click the button below to obta
 
 > **2️⃣Pair Code (Session ID)**
 
-<a href='https://vortex-xmd-session-site.onrender.com/' target="_blank">
+<a href='https://Nexus-xmd-session-site.onrender.com/' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-darkpink?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
 
 > **3️⃣qr Code (Session ID)**
 
-<a href='https://vortex-xmd-session-site.onrender.com/qr' target="_blank">
+<a href='https://Nexus-xmd-session-site.onrender.com/qr' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-cyan?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
@@ -99,7 +99,8 @@ You will need a session ID to run the VORTEX-XMD. Click the button below to obta
 <h4 align="center">1. Heroku</h4>
 <p style="text-align: center; font-size: 1.2em;">
 
-##DEPLOY ON
+  DEPLOY ON
+  
 <a href="https://dashboard.heroku.com/new?template=https://github.com/pkdriller/NEXUS-XMD"><img title="DEPLOY-ON HEROKU" src="https://img.shields.io/badge/DEPLOY-ON HEROKU-h?color=blue&style=for-the-badge&logo=nike" width="150" height="28"/></a></p>
 
 ----------
