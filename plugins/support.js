@@ -28,7 +28,7 @@ let dec = `
 
 ⟣──────────────────⟢
 
-> VORTEX-𝐗𝐌𝐃 
+> NEXUS-𝐗𝐌𝐃 
 
 ⟣──────────────────⟢
 ${readMore}
@@ -39,9 +39,9 @@ https://tinyurl.com/26kh6jss
 
 https://tinyurl.com/26kh6jss
 
-\`VORTEX 𝐗𝐌𝐃\` *Dev🧑‍💻*
+\`NEXUS 𝐗𝐌𝐃\` *Dev🧑‍💻*
 
-wa.me/+255760774888 ?text=Support!
+wa.me/+254785392165 ?text=Support!
 
 ⟣──────────────────⟢
 
@@ -50,7 +50,7 @@ wa.me/+255760774888 ?text=Support!
 await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/BKYt9f00/caseyrhodes-tech.jpg` },
+                image: { url: `https://files.catbox.moe/80yt3d.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -58,7 +58,7 @@ await conn.sendMessage(
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363352087070233@newsletter',
-                        newsletterName: '『 VORTEX-𝐗𝐌𝐃 』',
+                        newsletterName: '『 NEXUS-𝐗𝐌𝐃 』',
                         serverMessageId: 143
                     }
                 }
