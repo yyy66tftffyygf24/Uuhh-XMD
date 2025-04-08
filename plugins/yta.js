@@ -25,7 +25,7 @@ try {
     if(!ytdl?.download?.url) return reply("Error fetching audio URL");
     
     let ytmsg = `
-╭━━━〔 *VORTEX MD* 〕━━━┈⊷
+╭━━━〔 *NEXUS-XMD* 〕━━━┈⊷
 ┃▸┃๏ *MUSIC DOWNLOADER*
 ╭━━❐━⪼
 ┇๏ *Title* -  ${yts.title}
