@@ -1,11 +1,11 @@
 {
-  "name": "VORTEX-XMD",
+  "name": "NEXUS-XMD",
   "description": "Javascript WhatsApp bot made by HansTz.",
-  "keywords": ["VORTEX-XMD"],
+  "keywords": ["NEXUS-XMD"],
   
   
-  "logo": "https://i.ibb.co/BKYt9f00/VORTEX-tech.jpg",
-  "repository": "https://github.com/Mrhanstz/VORTEX-XMD",
+  "logo": "https://files.catbox.moe/tz5um7.jpg",
+  "repository": "https://github.com/pkdriller/NEXUS-XMD",
   "succes_url": "/",
 
   "stack": "container",
@@ -19,13 +19,13 @@
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": false,
-      "value": "https://i.ibb.co/BKYt9f00/VORTEX-tech.jpg"
+      "value": "https://files.catbox.moe/tz5um7.jpg"
     }, 
     
     "LIVE_MSG": {
       "description": "paste your alive message hear.",
       "required": false,
-      "value": "> VORTEX-XMD IS ACTIVE AND ALIVE⚡"
+      "value": "> NEXUS-XMD IS ACTIVE AND ALIVE⚡"
     },
     
     "PREFIX": {
@@ -82,7 +82,7 @@
     "AUTO_STATUS__MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*🎉👀 sᴇᴇɴ ʙʏ Vortex xᴍᴅ🚀🔥*"
+      "value": "*🎉👀 sᴇᴇɴ ʙʏ Nexus xᴍᴅ🚀🔥*"
     }, 
 
     "OWNER_NAME": {
@@ -94,13 +94,13 @@
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "255760774888"
+      "value": "254785392165"
  },
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "✦ Vortex xᴍᴅ✦"
+      "value": "✦ Nexus xᴍᴅ✦"
 
       }, 
 
@@ -120,7 +120,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ✦Vortex xᴍᴅ✦*"
+      "value": "*© ✦Nexus xᴍᴅ✦*"
     },
 
       "DELETE_LINKS": {
