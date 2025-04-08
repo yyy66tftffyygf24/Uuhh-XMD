@@ -38,7 +38,7 @@ async (conn, mek, m, {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363352087070233@newsletter',
-          newsletterName: "VORTEX-WEB",
+          newsletterName: "NEXUS-WEB",
           serverMessageId: 143,
         },
       },
@@ -51,4 +51,4 @@ async (conn, mek, m, {
   }
 });
 
-// ⿻ ⌜ VORTEX ⌟⿻⃮͛🇵🇰𖤐
+// ⿻ ⌜ NEXUS ⌟⿻⃮͛🇵🇰𖤐
