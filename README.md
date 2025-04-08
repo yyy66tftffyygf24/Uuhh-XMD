@@ -4,11 +4,8 @@
 
   <p align="center">
 <a href="https://github.com/pkdriller/followers"><img title="Followers" src="https://img.shields.io/github/followers/pkdriller?color=blue&style=flat-square"></a>
-<a href="https://github.com/pkdriller/NEXUS-XMD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/pkdriller/NEXUS-XMD?color=blue&style=flat-square"></a>
-<a href="https://github.com/pkdriller/NEXUS-XMD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/pkdriller/NEXUS-XMD?color=blue&style=flat-square"></a>
-<a href="https://github.com/pkdriller/NEXUS-XMD/"><img title="Size" src="https://img.shields.io/github/repo-size/pkdriller/NEXUS-XMD?style=flat-square&color=green"></a>
-<a href="https://github.com/pkdriller/NEXUS-XMD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
-</p>
+<a 
+
 <p align='center'>
 </p>
 
