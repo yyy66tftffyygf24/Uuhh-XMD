@@ -19,7 +19,7 @@ cmd({
 async (conn, mek, m, { from, quoted, reply }) => {
     try {
         // Define the settings message with the correct boolean checks
-        let envSettings = `╭〔 *【VORTEX 𝐗𝐌𝐃】* 〕⊷
+        let envSettings = `╭〔 *【NEXUS 𝐗𝐌𝐃】* 〕⊷
 ┃▸╭───────────
 ┃▸┃๏ *ENV SETTINGS 🗿*
 ┃▸└───────────···๏
@@ -48,7 +48,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: 'https://i.ibb.co/DDjPWXGT/lordcasey.jpg' }, // Image URL
+                image: { url: 'https://files.catbox.moe/fvp9bk.jpg' }, // Image URL
                 caption: envSettings,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -56,7 +56,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363352087070233@newsletter',
-                        newsletterName: "𝐓𝐇𝐄 VORTEX 𝐗𝐌𝐃 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒🥰",
+                        newsletterName: "𝐓𝐇𝐄 NEXUS 𝐗𝐌𝐃 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒🥰",
                         serverMessageId: 143
                     }
                 }
