@@ -25,14 +25,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send the status message with an image
         await conn.sendMessage(from, { 
-            image: { url: `https://files.catbox.moe/fvp9bk.jpg` },  
+            image: { url: `https://files.catbox.moe/x9iv4u.jpg` },  
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363352087070233@newsletter',
+                    newsletterJid: '120363288304618280@newsletter',
                     newsletterName: 'Nexus 𝑿𝒎𝒅 🥳',
                     serverMessageId: 143
                 }
