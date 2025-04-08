@@ -28,13 +28,13 @@ const wordInfo = `
 📝 *Example*: ${example}
 🔗 *Synonyms*: ${synonyms}
 
-> *@ 💫 𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃 💫*`;
+> *@ 💫 NEXUS-𝐗𝐌𝐃 💫*`;
 
                                  return reply(wordInfo);
                              } catch (e) {
                                  console.log(e);
                                  if (e.response && e.response.status === 404) {
-                                     return reply("🚫💫 𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃 💫 Word not found. Please check the spelling and try again.");
+                                     return reply("🚫💫 NEXUS-𝐗𝐌𝐃 💫 Word not found. Please check the spelling and try again.");
                                  }
                                  return reply("⚠️ An error occurred while fetching the definition. Please try again later.");
                              }
