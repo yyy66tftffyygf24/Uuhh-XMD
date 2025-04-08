@@ -1,98 +1,62 @@
-<div align="center" style="font-size: 1.2em;">
-
-- **Disclaimer:** This bot is not affiliated with `WhatsApp Inc.`. Use it at your own risk.  
-- Misusing the bot may result in your `WhatsApp` account being banned. Note that you can only unban your account once.  
-- I am not responsible for any bans or misuse of the bot. Please keep this warning in mind before proceeding.
-
+<div align="center">
+  <img src="https://i.imgur.com/P2lplQy.jpeg" alt="Bot Image" width="300"/>
 </div>
 
 ---
 
-<h2 align="left">ℹ️ Notice</h2>
+<h2 align="center">🚀 Deployment Steps</h2>
 
-<div align="center" style="font-size: 1.2em;">
-  Not For Sale — If any plugin's code is obfuscated, you do not have permission to edit it in any form.  
-  Please remember to give credit if you are using or re-uploading my plugins/files.  
-  Wishing you a wonderful day ahead!
-</div>
+<p align="center">
+<b>Step 1: Fork the Repo</b><br>
+<a href="https://github.com/Pkdriller/NEXUS-XMD/fork">
+  <img src="https://img.shields.io/badge/Fork%20Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+</p>
 
----
-
-<h2 align="center"> Project Owners </h2>
-
----
-
-### Thank You Dear
-
-> **DEVELOPER OF NEXUS-XMD**  
-> - [Pkdriller](https://github.com/pkdriller)  
-> - Creator and Owner Of VORTEX-XMD  
-
-> **NEXUS-XMD**  
-> - [Cyber](https://github.com/pkdriller)  
-> - For helping in bot plugin files.
+<p align="center">
+<b>Step 2: Get Your Session ID</b><br>
+<a href="https://hanstz-site-vortex-xmd.onrender.com/pair">
+  <img src="https://img.shields.io/badge/Get%20Session%20ID-00C8A9?style=for-the-badge&logo=google&logoColor=white" />
+</a>
+</p>
 
 ---
 
-<br>
-
-<h2 align="center"> ⚠️ Disclaimer ⚠️ </h2>
-
----
-
-<h3 align="center"> ❌ Don't Copy Without Permission ❌ </h3>
-
-<br>
-
----
-
-<h2 align="center">🚀 Deploy Buttons</h2>
+<h2 align="center">🚀 PLATFORM DEPLOYMENTS</h2>
 
 <p align="center">
 <b>HEROKU</b><br>
-<a href="https://heroku.com/deploy?template=https://github.com/YOUR_REPO">
+<a href="https://dashboard.heroku.com/new?template=https://github.com/Pkdriller/NEXUS-XMD">
   <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" />
 </a>
 </p>
 
-<p align="center">
-<b>VERCEL</b><br>
-<a href="https://vercel.com/new/clone?repository-url=https://github.com/YOUR_REPO">
-  <img src="https://img.shields.io/badge/Deploy%20To%20Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-</a>
-</p>
 
 <p align="center">
 <b>REPLIT</b><br>
-<a href="https://replit.com/github/YOUR_REPO">
+<a href="https://replit.com/github/Pkdriller/NEXUS-XMD">
   <img src="https://img.shields.io/badge/Deploy%20To%20Replit-667881?style=for-the-badge&logo=replit&logoColor=white" />
 </a>
 </p>
 
 <p align="center">
 <b>RAILWAY</b><br>
-<a href="https://railway.app/new/template?template=https://github.com/YOUR_REPO">
+<a href="https://railway.app/new/template?template=https://github.com/Pkdriller/NEXUS-XMD">
   <img src="https://img.shields.io/badge/Deploy%20To%20Railway-4B2B36?style=for-the-badge&logo=railway&logoColor=white" />
 </a>
 </p>
 
-<p align="center">
-<b>TERMINAL (TERMUX)</b><br>
-<a href="https://t.me/termux_bots">
-  <img src="https://img.shields.io/badge/Termux-222222?style=for-the-badge&logo=gnubash&logoColor=white" />
-</a>
-</p>
 
 <p align="center">
 <b>RENDER</b><br>
-<a href="https://render.com/deploy?repo=https://github.com/YOUR_REPO">
+<a href="https://render.com/">
   <img src="https://img.shields.io/badge/Deploy%20To%20Render-2F2F2F?style=for-the-badge&logo=render&logoColor=white" />
 </a>
 </p>
 
 <p align="center">
-<b>TALK DRIVE</b><br>
-<a href="https://t.me/TalkDriveHost">
+<b>TALK DROVE</b><br>
+<a href="https://host.talkdrove.com/auth/signup?ref=31E3F0E2">
   <img src="https://img.shields.io/badge/TalkDrive-0088cc?style=for-the-badge&logo=telegram&logoColor=white" />
 </a>
 </p>
