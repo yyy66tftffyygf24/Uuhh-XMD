@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">💫 Vᴏʀᴛᴇx xᴍᴅ 💫</h1>
+  <h1 align="center">💫 NEXUS-XMD 💫</h1>
 </p>
 
   <p align="center">
@@ -43,17 +43,17 @@ Dont forget to fork 🍴 & star 🌟 repo😇
 [![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-FF00F8?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vb4a985InlqSS0l3ro3c#N7Mti4kjHnOwhF8PLajt4KvJt_dNPPAeNjgLaszm3po)
 </div>
 
- <p align="center"><img src="https://profile-counter.glitch.me/{VORTEX-XMD}/count.svg" alt="Mrhanstz :: Visitor's Count" old_src="https://profile-counter.glitch.me/{HansTz}/count.svg" /></p>
+ <p align="center"><img src="https://profile-counter.glitch.me/{NEXUS-XMD}/count.svg" alt="Mrhanstz :: Visitor's Count" old_src="https://profile-counter.glitch.me/{HansTz}/count.svg" /></p>
 
 
 <p align="center">
-<a href="https://github.com/Mrhanstz/VORTEX-XMD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=darkpink"></a> &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=VORTEX-XMD&label=VIEWS&style=flat-square&color=blue" />
+<a href="https://github.com/pkdriller/NEXUS-XMD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=darkpink"></a> &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=NEXUS-XMD&label=VIEWS&style=flat-square&color=blue" />
 </p>
 </p> 
 
 <p align="center">
-  <a href="https://github.com/Mrhanstz/VORTEX-XMD"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v2.0-darkcyan.svg?style=for-the-badge&logo=appveyor" /></a>
+  <a href="https://github.com/pkdriller/NEXUS-XMD"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v2.0-darkcyan.svg?style=for-the-badge&logo=appveyor" /></a>
 </p>
 
 
@@ -63,7 +63,7 @@ Dont forget to fork 🍴 & star 🌟 repo😇
 
 Start by forking this repository to your own GitHub account. Click the button below to fork:
 
-  <a href="https://github.com/Mrhanstz/VORTEX-XMD/fork"><img title="VORTEX-XMD" src="https://img.shields.io/badge/FORK-VORTEX-XMDh?color=blue&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/pkdriller/NEXUS-XMD/fork"><img title="NEXUS-XMD" src="https://img.shields.io/badge/FORK-VORTEX-XMDh?color=blue&style=for-the-badge&logo=stackshare"></a>
   
 ### 2. Get Session ID 
 
