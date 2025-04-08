@@ -317,8 +317,8 @@ Stay connected with the latest updates and community by joining our official Wha
 
 ### Thank You Dear
 
-> DEVELOPER OF VORTEX-XMD
-- [HansTz ](https://github.com/pkdriller)
+> DEVELOPER OF NEXUS-XMD
+- [Pkdriller](https://github.com/pkdriller)
 - Creater and Owner Of VORTEX-XMD
 
 > NEXUS-XMD
@@ -338,7 +338,7 @@ Stay connected with the latest updates and community by joining our official Wha
 <br>
 
 ```
-Thank you For Silva Md Bot
+Thank you For mr hanstz
 ```
 -----
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
