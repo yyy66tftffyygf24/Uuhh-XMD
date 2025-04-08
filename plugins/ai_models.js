@@ -63,7 +63,7 @@ cmd({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363352087070233@newsletter',
-                    newsletterName: 'Vortex xᴍᴅ ᴀɪ🤖',
+                    newsletterName: 'Nexus xᴍᴅ ᴀɪ🤖',
                     serverMessageId: 143
                 }
             }
@@ -123,7 +123,7 @@ cmd({
         }
 
         // AI image to attach
-        const AI_IMG = 'https://i.ibb.co/BKYt9f00/caseyrhodes-tech.jpg'; // Replace with a valid image URL
+        const AI_IMG = 'https://files.catbox.moe/fvp9bk.jpg'; // Replace with a valid image URL
 
         // Formatted response text
         const formattedInfo = `*🤖 ʟʟᴀᴍᴀ3 ʀᴇsᴘᴏɴsᴇ:*\n\n${llamaResponse}`;
