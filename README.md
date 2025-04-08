@@ -6,7 +6,7 @@
 <a href="https://github.com/pkdriller/followers"><img title="Followers" src="https://img.shields.io/github/followers/pkdriller?color=blue&style=flat-square"></a>
 <a href="https://github.com/pkdriller/NEXUS-XMD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/pkdriller/NEXUS-XMD?color=blue&style=flat-square"></a>
 <a href="https://github.com/pkdriller/NEXUS-XMD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/pkdriller/NEXUS-XMD?color=blue&style=flat-square"></a>
-<a href="https://github.com/pkdriller/NEXUS-XMD/"><img title="Size" src="https://img.shields.io/github/repo-size/Mrhanstz/VORTEX-XMD?style=flat-square&color=green"></a>
+<a href="https://github.com/pkdriller/NEXUS-XMD/"><img title="Size" src="https://img.shields.io/github/repo-size/pkdriller/NEXUS-XMD?style=flat-square&color=green"></a>
 <a href="https://github.com/pkdriller/NEXUS-XMD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 <p align='center'>
@@ -35,7 +35,7 @@ Dont forget to fork 🍴 & star 🌟 repo😇
 ***
 
 <p align="center">
-  <a href="https://github.com/pkdriller"><img title="Developer" src="https://img.shields.io/badge/Author-Mr%20MrhansTz0-397604.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/pkdriller"><img title="Developer" src="https://img.shields.io/badge/Author-pk%20driller0-397604.svg?style=for-the-badge&logo=github" /></a>
 </p>
 
 <div align="center">
@@ -43,7 +43,7 @@ Dont forget to fork 🍴 & star 🌟 repo😇
 [![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-FF00F8?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x)
 </div>
 
- <p align="center"><img src="https://profile-counter.glitch.me/{NEXUS-XMD}/count.svg" alt="Mrhanstz :: Visitor's Count" old_src="https://profile-counter.glitch.me/{pkdriller}/count.svg" /></p>
+ <p align="center"><img src="https://profile-counter.glitch.me/{NEXUS-XMD}/count.svg" alt="pkdriller :: Visitor's Count" old_src="https://profile-counter.glitch.me/{pkdriller}/count.svg" /></p>
 
 
 <p align="center">
