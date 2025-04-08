@@ -1,10 +1,8 @@
 <p align="center">
-  <h1 align="center">🦂 NEXUS-XMD 🦂</h1>
+  <h1 align="center">⭐ NEXUS-XMD 🌟</h1>
 </p>
 
-  <p align="center">
-<a href="https://github.com/pkdriller/followers"><img title="Followers" src="https://img.shields.io/github/followers/pkdriller?color=blue&style=flat-square"></a>
-<a 
+  
 
 <p align='center'>
 </p>
