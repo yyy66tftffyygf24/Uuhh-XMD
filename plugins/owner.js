@@ -29,9 +29,9 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/5hdckf.jpeg' }, // Image URL from your request
+            image: { url: 'https://files.catbox.moe/80yt3d.jpg' }, // Image URL from your request
             caption: `
-╭━〔 *𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃* 〕━┈⊷
+╭━〔 *NEXUS-𝐗𝐌𝐃* 〕━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -46,7 +46,7 @@ async (conn, mek, m, { from }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363352087070233@newsletter',
-                    newsletterName: 'VORTEX DEVS 😌',
+                    newsletterName: 'NEXUS DEVS 😌',
                     serverMessageId: 143
                 }            
             }
@@ -54,7 +54,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/devhanstz/VORTEX-XMD-DATA/raw/refs/heads/main/KingHans/HansTz.mp3' }, // Audio URL
+            audio: { url: 'https://github.com/devhanstz/NEXUS-XMD-DATA/raw/refs/heads/main/pkdriller/pkdriller.mp3' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
