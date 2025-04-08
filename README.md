@@ -63,7 +63,7 @@ Dont forget to fork 🍴 & star 🌟 repo😇
 
 Start by forking this repository to your own GitHub account. Click the button below to fork:
 
-  <a href="https://github.com/pkdriller/NEXUS-XMD/fork"><img title="NEXUS-XMD" src="https://img.shields.io/badge/FORK-VORTEX-XMDh?color=blue&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/pkdriller/NEXUS-XMD/fork"><img title="NEXUS-XMD" src="https://img.shields.io/badge/FORK-NEXUS-XMDh?color=blue&style=for-the-badge&logo=stackshare"></a>
   
 ### 2. Get Session ID 
 
