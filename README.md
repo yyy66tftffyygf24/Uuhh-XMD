@@ -99,8 +99,8 @@ You will need a session ID to run the VORTEX-XMD. Click the button below to obta
 <h4 align="center">1. Heroku</h4>
 <p style="text-align: center; font-size: 1.2em;">
 
-
-***[![Deploy on heroku](https://dashboard.heroku.com/new?template=https://github.com/pkdriller/NEXUS-XMD/tree/main)***
+##DEPLOY ON
+<a href="https://dashboard.heroku.com/new?template=https://github.com/pkdriller/NEXUS-XMD"><img title="DEPLOY-ON HEROKU" src="https://img.shields.io/badge/DEPLOY-ON HEROKU-h?color=blue&style=for-the-badge&logo=nike" width="150" height="28"/></a></p>
 
 ----------
 
