@@ -35,15 +35,15 @@ Dont forget to fork 🍴 & star 🌟 repo😇
 ***
 
 <p align="center">
-  <a href="https://github.com/Mrhanstz"><img title="Developer" src="https://img.shields.io/badge/Author-Mr%20MrhansTz0-397604.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/pkdriller"><img title="Developer" src="https://img.shields.io/badge/Author-Mr%20MrhansTz0-397604.svg?style=for-the-badge&logo=github" /></a>
 </p>
 
 <div align="center">
   
-[![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-FF00F8?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vb4a985InlqSS0l3ro3c#N7Mti4kjHnOwhF8PLajt4KvJt_dNPPAeNjgLaszm3po)
+[![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-FF00F8?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x)
 </div>
 
- <p align="center"><img src="https://profile-counter.glitch.me/{NEXUS-XMD}/count.svg" alt="Mrhanstz :: Visitor's Count" old_src="https://profile-counter.glitch.me/{HansTz}/count.svg" /></p>
+ <p align="center"><img src="https://profile-counter.glitch.me/{NEXUS-XMD}/count.svg" alt="Mrhanstz :: Visitor's Count" old_src="https://profile-counter.glitch.me/{pkdriller}/count.svg" /></p>
 
 
 <p align="center">
@@ -92,7 +92,7 @@ You will need a session ID to run the VORTEX-XMD. Click the button below to obta
 
 ---
 
-<h2 align="center">VORTEX Deployment Options</h2>
+<h2 align="center">NEXUS-XMD Deployment Options</h2>
 
 ---
 
