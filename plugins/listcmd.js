@@ -298,7 +298,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/5hdckf.jpeg` },
+                image: { url: `https://files.catbox.moe/fvp9bk.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -306,7 +306,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363352087070233@newsletter',
-                        newsletterName: '💫 Vᴏʀᴛᴇx xᴍᴅ 💫',
+                        newsletterName: '💫 Nexus xᴍᴅ 💫',
                         serverMessageId: 143
                     }
                 }
@@ -316,7 +316,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/devhanstz/VORTEX-XMD-DATA/raw/refs/heads/main/KingHans/Menu.mp3' },
+            audio: { url: 'https://github.com/devhanstz/NEXUS-XMD-DATA/raw/refs/heads/main/pkdriller/Menu.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
