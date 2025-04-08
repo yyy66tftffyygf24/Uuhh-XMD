@@ -15,7 +15,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = `
-╭━〔 *𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃* 〕━┈⊷
+╭━〔 *NEXUS-𝐗𝐌𝐃* 〕━┈⊷
 ┃★╭──────────────
 ┃★│ Owner : *${config.OWNER_NAME}*
 ┃★│ Baileys : *Multi Device*
