@@ -15,7 +15,7 @@
 
 <p align="center">
 <b>Step 2: Get Your Session ID</b><br>
-<a href="https://hanstz-site-vortex-xmd.onrender.com/pair">
+<a href="https://nexus-xmd-piar.onrender.com">
   <img src="https://img.shields.io/badge/Get%20Session%20ID-00C8A9?style=for-the-badge&logo=google&logoColor=white" />
 </a>
 </p>
