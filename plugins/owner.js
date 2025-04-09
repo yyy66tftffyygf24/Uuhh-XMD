@@ -29,7 +29,7 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/80yt3d.jpg' }, // Image URL from your request
+            image: { url: 'https://i.ibb.co/spWPCnsf/hanstz.jpg' }, // Image URL from your request
             caption: `
 ╭━〔 *NEXUS-𝐗𝐌𝐃* 〕━┈⊷
 ┃◈╭─────────────·๏
@@ -45,7 +45,7 @@ async (conn, mek, m, { from }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363352087070233@newsletter',
+                    newsletterJid: '120363288304618280@newsletter',
                     newsletterName: 'NEXUS DEVS 😌',
                     serverMessageId: 143
                 }            
