@@ -1,4 +1,4 @@
-// code by ⿻ ⌜VORTEX ⌟⿻⃮͛🇵🇰𖤐
+// code by ⿻ ⌜pkdriller ⌟⿻⃮͛🇵🇰𖤐
 
 const axios = require("axios");
 const config = require('../config');
@@ -31,13 +31,13 @@ async (conn, mek, m, {
     // give credit and use
     const imageMessage = {
       image: { url: screenshotUrl },
-      caption: "*WEB SS DOWNLOADER*\n\n> *© Powered By VORTEX*",
+      caption: "*WEB SS DOWNLOADER*\n\n> *© Powered By Nexus*",
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363352087070233@newsletter',
+          newsletterJid: '120363288304618280@newsletter',
           newsletterName: "NEXUS-WEB",
           serverMessageId: 143,
         },
