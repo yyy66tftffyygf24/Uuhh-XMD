@@ -51,7 +51,7 @@ cmd({
     const response = await fetchJson(apiUrl);
     const result = response.result;
 
-    const caption = ` \`VORTEX XMD URL SHORTENER\` \n\n\n*Original Link:* ${q}\n\n*Shortened Link:* ${result}\n\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ HansTz`;
+    const caption = ` \`NEXUS XMD URL SHORTENER\` \n\n\n*Original Link:* ${q}\n\n*Shortened Link:* ${result}\n\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ HansTz`;
 
    /* await conn.sendMessage(m.chat, { text: caption }, { quoted: m });
   } catch (error) {
@@ -62,15 +62,15 @@ cmd({
 */
  // Send the status message with an image
         await conn.sendMessage(from, { 
-            image: { url: `https://i.ibb.co/Dgsd20dk/lordcasey.jpg` },  // Image URL
+            image: { url: `https://i.ibb.co/spWPCnsf/hanstz.jpg` },  // Image URL
             caption: caption,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363352087070233@newsletter',
-                    newsletterName: '『 VORTEX 𝐗𝐌𝐃 𝐒𝐇𝐎𝐑𝐓 𝐔𝐑𝐋 』',
+                    newsletterJid: '120363288304618280@newsletter',
+                    newsletterName: '『 NEXUS 𝐗𝐌𝐃 𝐒𝐇𝐎𝐑𝐓 𝐔𝐑𝐋 』',
                     serverMessageId: 143
                 }
             }
