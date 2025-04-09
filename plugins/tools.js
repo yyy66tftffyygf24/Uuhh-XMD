@@ -20,7 +20,7 @@ cmd({
       return reply("❌ Failed to fetch a joke. Please try again.");
     }
 
-    const jokeMessage = `🤣 *Here's a random joke for you!* 🤣\n\n*${joke.setup}*\n\n${joke.punchline} 😆\n\n> *© ᴄᴏᴏᴋᴇᴅ ʙʏ ᴍʀ NEXUS-XMD*`;
+    const jokeMessage = `🤣 *Here's a random joke for you!* 🤣\n\n*${joke.setup}*\n\n${joke.punchline} 😆\n\n> *© POWDERED BY NEXUS-XMD*`;
 
     return reply(jokeMessage);
   } catch (error) {
