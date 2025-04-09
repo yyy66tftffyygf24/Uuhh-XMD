@@ -60,15 +60,15 @@ cmd({
       + `📌 *Reply with the number to download in your choice.*`;
 
     const sentMsg = await conn.sendMessage(from, {
-      image: { url: ytData.thumbnail || "https://i.ibb.co/BKYt9f00/caseyrhodes-tech.jpg" },
+      image: { url: ytData.thumbnail || "https://i.ibb.co/spWPCnsf/hanstz.jpg" },
       caption: caption,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363352087070233@newsletter",
-          newsletterName: "VORTEX XMD",
+          newsletterJid: "120363288304618280@newsletter",
+          newsletterName: "NEXUS XMD",
           serverMessageId: 143
         }
       }
@@ -93,7 +93,7 @@ cmd({
           case "1":
             await conn.sendMessage(senderID, {
               video: { url: downloadLink },
-              caption: "*VORTEX XMD*"
+              caption: "*NEXUS XMD*"
             }, { quoted: receivedMsg });
             break;
 
@@ -102,7 +102,7 @@ cmd({
               document: { url: downloadLink },
               mimetype: "video/mp4",
               fileName: `${ytData.title}.mp4`,
-              caption: "*VORTEX-XMD*"
+              caption: "*NEXUS-XMD*"
             }, { quoted: receivedMsg });
             break;
 
