@@ -16,16 +16,16 @@ try{
 let repo =`
 *╭──────────────●●►*
 > *BOT OWNER:*
-*|* *CASEYWEB*
+*|* *pkdriller*
 
-> *CASEYWEB REPO:*
-*|* https://github.com/caseyweb/CASEYRHODES XMD
+> *pkdriller REPO:*
+*|* https://github.com/pkdriller/NEXUS-XMD
 
 > *SUPPORT GROUP:*
-*|* https://whatsapp.com/channel/0029VaoRxGmJpe8lgCqT1T2h
+*|* Follow the PKDRILLER 🇰🇪TECH 🇰🇪 channel on WhatsApp: https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
 *╰──────────────●●►*
 
-> *CREATED BY CASEYRHODES TECH*
+> *CREATED BY PKDRILLER*
 `
 await conn.sendMessage(from, { text: repo ,
   contextInfo: {
@@ -34,7 +34,7 @@ await conn.sendMessage(from, { text: repo ,
     forwardingScore: 999,
     isForwarded: false,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363318387454868@newsletter',
+      newsletterJid: '120363288304618280@newsletter',
       newsletterName: "𝐀ɭι̇ι̇ 𝐌Ɗ 🍁",
       serverMessageId: 999
     },
@@ -70,7 +70,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/Mrhanstz/VORTEX-XMD';
+    const githubRepoURL = 'https://github.com/pkdriller/NEXUS-XMD';
 
     try {
         // Extract username and repo name from the URL
@@ -86,7 +86,7 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 VORTEX-𝐗𝐌𝐃 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
+        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 NEXUS-XMD 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
 
 > *sɪᴍᴘʟᴇ, ɪᴄʏ, ᴄᴏʟᴅ  & ʀɪᴄʜ ʟᴏᴀᴅᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs, HansTz ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ.*❄️
 
@@ -94,7 +94,7 @@ async (conn, mek, m, { from, reply }) => {
 
 > *ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴*
 
-https://github.com/Mrhanstz/VORTEX-XMD
+https://github.com/pkdriller/NEXUS-XMD
 ──────────────────
 ${readMore}
 \`BOT NAME:\`❄️
@@ -112,7 +112,7 @@ ${readMore}
 \`DESCRIPTION:\`📃
 > ${repoData.description || 'No description'}\n
 ──────────────────
-\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ HansTz ᴛᴇᴄʜ* 🎐`;
+\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ pkdriller ᴛᴇᴄʜ* 🎐`;
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
@@ -123,8 +123,8 @@ ${readMore}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '☇ HANS-TECH suppσrt  ⃪🤖͎᪳᪳𝆺𝅥',
+                    newsletterJid: '120363288304618280@newsletter',
+                    newsletterName: '☇ pkdriller suppσrt  ⃪🤖͎᪳᪳𝆺𝅥',
                     serverMessageId: 143
                 }
             }
@@ -140,8 +140,8 @@ ${readMore}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '☇ HANS-TECH suppσrt⃪🤖͎᪳᪳𝆺𝅥',
+                    newsletterJid: '120363288304618280@newsletter',
+                    newsletterName: '☇ pkdriller suppσrt⃪🤖͎᪳᪳𝆺𝅥',
                     serverMessageId: 143
                 }
             }
