@@ -9,7 +9,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/MRSHABAN40/SHABAN-MD-V5';
+    const githubRepoURL = 'https://github.com/pkdriller/NEXUS-XMD';
 
     try {
         const match = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
