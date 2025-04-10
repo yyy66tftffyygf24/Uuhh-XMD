@@ -17,7 +17,7 @@ const url = data.url
     
     
 let desc = `
-*⫷⦁SHABAN-MD MUSⵊC DOWNLOADⵊNG⦁⫸*
+*⫷⦁NEXUS-XMD MUSⵊC DOWNLOADⵊNG⦁⫸*
 
 🎵 *MUSⵊC FOUND!* 
 
@@ -29,9 +29,9 @@ let desc = `
 
 🎧 *ENJOY THE MUSIC BROUGHT TO YOU!*
 
-> *SHABAN-MD WHATSAPP BOT* 
+> *NEXUS-XMD BOT* 
 
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ-sʜᴀʙᴀɴ* 
+> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ pkdriller-* 
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -70,7 +70,7 @@ const url = data.url
     
     
 let desc = `
-*⫷⦁SHABAN-MD VⵊDEO DOWNLOADⵊNG⦁⫸*
+*⫷⦁NEXUS-XMD VⵊDEO DOWNLOADⵊNG⦁⫸*
 
 🎥 *VⵊDEO FOUND!* 
 
@@ -82,9 +82,9 @@ let desc = `
 
 🎬 *ENJOY THE VIDEO BROUGHT TO YOU!*
 
-> *SHABAN-MD WHATSAPP BOT* 
+> *NEXUS-XMD  BOT* 
 
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ-sʜᴀʙᴀɴ*
+> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ pkdriller*
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -96,7 +96,7 @@ let downloadUrl = down.dl_url
 
 //send video message
 await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴀʟɪ-ᴍᴅ*"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"*© ᴄʀᴇᴀᴛᴇᴅ by pkdriller*"},{quoted:mek})
 
 }catch(e){
 console.log(e)
