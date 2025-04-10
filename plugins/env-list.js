@@ -19,7 +19,7 @@ cmd({
 async (conn, mek, m, { from, quoted, reply }) => {
     try {
         // Royal & Stylish Settings Message
-        let envSettings = `*⚙️SHABAN-MD SETTINGS⚙️*
+        let envSettings = `*⚙️ NEXUS-XMD SETTINGS⚙️*
 
 ┣ 🔹 *Status View:* ${isEnabled(config.AUTO_STATUS_SEEN) ? "On" : "Off"}  
 ┣ 🔹 *Status Reply:* ${isEnabled(config.AUTO_STATUS_REPLY) ? "On" : "Off"}  
@@ -45,15 +45,15 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: 'https://files.catbox.moe/yoqs4t.jpg' }, // Stylish Image
+                image: { url: 'https://files.catbox.moe/tsjtpi.jpeg' }, // Stylish Image
                 caption: envSettings,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: "SʜᴀʙᴀɴMᴅ",
+                        newsletterJid: '120363288304618280@newsletter ',
+                        newsletterName: "NEXUSXMD",
                         serverMessageId: 143
                     }
                 }
