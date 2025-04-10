@@ -17,10 +17,10 @@ cmd({
   }  
 
   try {  
-    await reply("```🔍 Checking for SHABAN-MD updates...```\n");  
+    await reply("```🔍 Checking for NEXUS-XMD updates...```\n");  
       
     // Get latest commit from GitHub  
-    const { data: commitData } = await axios.get("https://api.github.com/repos/MRSHABAN40/SHABAN-MD/commits/main");  
+    const { data: commitData } = await axios.get("https://api.github.com/repos/pkdriller/NEXUS-XMD/commits/main");  
     const latestCommitHash = commitData.sha;  
 
     // Get current commit hash  
@@ -33,14 +33,14 @@ cmd({
     }  
 
     if (latestCommitHash === currentHash) {  
-      return reply("```✅ Your SHABAN-MD bot is already up-to-date!```\n");  
+      return reply("```✅ Your NEXUS-XMD bot is already up-to-date!```\n");  
     }  
 
-    await reply("```SHABAN-MD Bot Updating...🚀```\n");  
+    await reply("```NEXUS-XMD Bot Updating...🚀```\n");  
       
     // Download latest code  
     const zipPath = path.join(__dirname, "latest.zip");  
-    const { data: zipData } = await axios.get("https://github.com/MRSHABAN40/SHABAN-MD/archive/main.zip", { responseType: "arraybuffer" });  
+    const { data: zipData } = await axios.get("https://github.com/pkdriller/NEXUS-XMD/archive/main.zip", { responseType: "arraybuffer" });  
     fs.writeFileSync(zipPath, zipData);  
 
     await reply("```📦 Extracting the latest code...```\n");  
@@ -53,7 +53,7 @@ cmd({
     await reply("```🔄 Replacing files...```\n");  
       
     // Copy updated files, skipping config.js and app.json  
-    const sourcePath = path.join(extractPath, "SHABAN-MD-main");  
+    const sourcePath = path.join(extractPath, "NEXUS-XMD-main");  
     const destinationPath = path.join(__dirname, '..');  
     copyFolderSync(sourcePath, destinationPath);  
 
