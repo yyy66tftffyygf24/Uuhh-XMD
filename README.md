@@ -62,4 +62,23 @@
 </p>
 
 ---
+## 🌐 **SOCIAL MEDIA & SUPPORT**
+
+<div align="center">
+
+### 🚀 **Connect With Me**
+  
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@Pktech-1911)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/pk_tech01?igsh=MTM0Y2p3ZHpxMXZraA==)
+[![Twitter](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/pkdriller)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100091580206517)
+[![Telegram](https://img.shields.io/badge/Telegram-%2326A5E4.svg?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/dev_pkdrillerbot)
+
+
+
+### 📢 **Official Support Channel**
+  
+[![WhatsApp Channel](https://img.shields.io/badge/Join_WhatsApp_Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x)
+
+
 
