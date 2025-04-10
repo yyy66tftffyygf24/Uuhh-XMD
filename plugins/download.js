@@ -180,7 +180,7 @@ conn.ev.on("messages.upsert", async (msgData) => {
       case "1":
         await conn.sendMessage(senderID, {
           video: { url: fbData.BK9.sd },
-          caption: "📥 *Downloaded SHABAN-MD*"
+          caption: "📥 *Downloaded NEXUS-XMD*"
         }, { quoted: receivedMsg });
         break;
 
@@ -281,14 +281,14 @@ conn.ev.on("messages.upsert", async (msgData) => {
       case "1":
         await conn.sendMessage(senderID, {
           video: { url: video1.url },
-          caption: "📥 *Downloaded SHABAN-MD*"
+          caption: "📥 *Downloaded NEXUS-XMD*"
         }, { quoted: receivedMsg });
         break;
 
       case "2":
         await conn.sendMessage(senderID, {
           video: { url: video2.url },
-          caption: "📥 *Downloaded SHABAN-MD*"
+          caption: "📥 *Downloaded NEXUS-XMD*"
         }, { quoted: receivedMsg });
         break;
 
