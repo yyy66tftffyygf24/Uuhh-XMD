@@ -8,31 +8,31 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { reply }) => {
     const familyList = `
-         *[ • ALI 𝖥𝖠𝖬𝖨𝖫𝖸 • ]*
+         *[ • NEXUS 𝖥𝖠𝖬𝖨𝖫𝖸 • ]*
 
-    [ • 𝖣𝖠𝖬𝖤 ALI: 𝖢𝖠𝖱𝖬𝖤𝖭👸 ]
+    [ • 𝖣𝖠𝖬𝖤 NEXUS: 𝖢𝖠𝖱𝖬𝖤𝖭👸 ]
        *•────────────•⟢*
                 *𝖥𝖱𝖨𝖤𝖭𝖣’𝖲*
       *╭┈───────────────•*
-      *│  ◦* *▢➠ 𝖲𝖤𝖡𝖠𝖲𝖳𝖨𝖤𝖭*
-      *│  ◦* *▢➠ 𝖦𝖠𝖬𝖠𝖫𝖨𝖤𝖫*
-      *│  ◦* *▢➠ 𝖥𝖱𝖠𝖭𝖢𝖪*
-      *│  ◦* *▢➠ 𝖧𝖤𝖭𝖱𝖸*
-      *│  ◦* *▢➠ 𝖫𝖤𝖠*
-      *│  ◦* *▢➠ 𝖬𝖠𝖱𝖨𝖫𝖸𝖭*
-      *│  ◦* *▢➠ 𝖤𝖬𝖨𝖤*
-      *│  ◦* *▢➠ 𝖲𝖯𝖨𝖣𝖨𝖳*
-      *│  ◦* *▢➠ 𝖱𝖠𝖯𝖧𝖠𝖤̈𝖫*
-      *│  ◦* *▢➠ ABDULLAH*
-      *│  ◦* *▢➠ 𝖥𝖠𝖭𝖭𝖸*
-      *│  ◦* *▢➠ 𝖱𝖸𝖠𝖭*
-      *│  ◦* *▢➠ 𝖢𝖧𝖱𝖨𝖲*
-      *│  ◦* *▢➠ 𝖦𝖱𝖤𝖸*
-      *│  ◦* *▢➠ 𝖲𝖠𝖨̈𝖣𝖠*
-      *│  ◦* *▢➠ 𝖲𝖴𝖪𝖴𝖭𝖠*
-      *│  ◦* *▢➠ 𝖱𝖮𝖸*
-      *│  ◦* *▢➠ 𝖥𝖤𝖱𝖭𝖠𝖭𝖣*
-      *│  ◦* *▢➠ 𝖮𝖡𝖨𝖠𝖭𝖦*
+      *│  ◦* *▢➠ HANS-TZ*
+      *│  ◦* *▢➠ B.M.B TZ*
+      *│  ◦* *▢➠ *
+      *│  ◦* *▢➠ *
+      *│  ◦* *▢➠ *
+      *│  ◦* *▢➠ *
+      *│  ◦* *▢➠ *
+      *│  ◦* *▢➠ *
+      *│  ◦* *▢➠ *
+      *│  ◦* *▢➠ *
+      *│  ◦* *▢➠ *
+      *│  ◦* *▢➠ *
+      *│  ◦* *▢➠ *
+      *│  ◦* *▢➠ *
+      *│  ◦* *▢➠ *
+      *│  ◦* *▢➠ *
+      *│  ◦* *▢➠ *
+      *│  ◦* *▢➠ *
+      *│  ◦* *▢➠ *
       *╰┈───────────────•*
         *•────────────•⟢*
     `;
@@ -40,7 +40,7 @@ cmd({
     try {
         // Envoi de la réponse avec l'image et la liste de la famille
         await conn.sendMessage(m.chat, {
-            image: { url: "https://i.ibb.co/mFCrdBF1/mrfrankofc.jpg" },
+            image: { url: "https://i.ibb.co/TDF3kZf1/nexus-xmd.jpg" },
             caption: familyList.trim()
         }, { quoted: mek });
     } catch (error) {
@@ -75,16 +75,16 @@ cmd(
 
             // List of staff contacts to promote (replace with actual numbers)
             const staffContacts = [
-                "923003588997@s.whatsapp.net", // Replace with staff contact numbers
-                "923003588997@s.whatsapp.net", // Example: Add staff members here
-                "923003588997@s.whatsapp.net", // Example: Add staff members here
-                "923003588997@s.whatsapp.net", // Example: Add staff members here
-                "923003588997@s.whatsapp.net", // Example: Add staff members here
-                "923003588997@s.whatsapp.net", // Example: Add staff members here
-                "923003588997@s.whatsapp.net", // Example: Add staff members here
-                "923003588997@s.whatsapp.net", // Example: Add staff members here
-                "923003588997@s.whatsapp.net", // Example: Add staff members here
-                "923003588997@s.whatsapp.net", // Example: Add staff members here
+                "254785392165@s.whatsapp.net", // Replace with staff contact numbers
+                "254785392165@s.whatsapp.net", // Example: Add staff members here
+                "254785392165@s.whatsapp.net", // Example: Add staff members here
+                "254785392165@s.whatsapp.net", // Example: Add staff members here
+                "254785392165@s.whatsapp.net", // Example: Add staff members here
+                "254785392165@s.whatsapp.net", // Example: Add staff members here
+                "254785392165@s.whatsapp.net", // Example: Add staff members here
+                "254785392165@s.whatsapp.net", // Example: Add staff members here
+                "254785392165@s.whatsapp.net", // Example: Add staff members here
+                "254785392165@s.whatsapp.net", // Example: Add staff members here
             ];
 
             // Fetch group metadata to get participant information
@@ -141,7 +141,7 @@ cmd(
             }
 
             // Define the new group settings here
-            const groupName = "𓆩ု᪳𝐀𝐋𝐈-𝐌𝐃ှ᪳𓆪";
+            const groupName = "𓆩NEXUS-XMD𓆪";
             const imageUrl = "https://i.ibb.co/mFCrdBF1/mrfrankofc.jpg"; // Replace with the actual image URL
             const groupDescription = `
 ༒🔱𝐏𝐑𝐈𝐄𝐑𝐄 𝐃𝐔 𝐂𝐋𝐀𝐍 𝐄𝐗𝐎𝐑𝐂𝐈𝐒𝐓𝐄🔱༒
