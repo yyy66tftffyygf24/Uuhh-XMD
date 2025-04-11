@@ -43,7 +43,7 @@ async (conn, mek, m, { from, args, reply }) => {
 
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ Sʜᴀʙᴀɴ Mᴅ`
+            caption: `${movieInfo}\n> ©ᴘᴏᴡᴇʀᴇᴅ ʙy NEXUS-XMD`
         }, { quoted: mek });
     } catch (e) {
         console.log(e);
