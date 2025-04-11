@@ -1,411 +1,209 @@
-const { cmd } = require("../command");
-const yts = require("yt-search");
-const axios = require("axios");
+const config = require('../config');
+const { cmd } = require('../command');
+const { ytsearch } = require('@dark-yasiya/yt-dl.js');
 
-cmd({
-  pattern: "play",
-  react: '⚡',
-  desc: "Download audio from YouTube",
-  category: "music",
-  use: ".play <song name>",
-  filename: __filename
-}, async (conn, mek, msg, { from, args, reply }) => {
-  try {
-    if (!args.length) {
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-      return reply("Please provide a song name. Example: .play Moye Moye");
+// MP4 video download
+// MP4 video download with options
+cmd({ 
+    pattern: "mp4", 
+    alias: ["video"], 
+    react: "🎥", 
+    desc: "Download YouTube video", 
+    category: "main", 
+    use: '.mp4 < Yt url or Name >', 
+    filename: __filename 
+}, async (conn, mek, m, { from, prefix, quoted, q, reply }) => { 
+    try { 
+        if (!q) return await reply("Please provide a YouTube URL or song name.");
+        
+        const yt = await ytsearch(q);
+        if (yt.results.length < 1) return reply("No results found!");
+        
+        let yts = yt.results[0];  
+        let apiUrl = `https://apis.davidcyriltech.my.id/download/ytmp4?url=${encodeURIComponent(yts.url)}`;
+        
+        let response = await fetch(apiUrl);
+        let data = await response.json();
+        
+        if (data.status !== 200 || !data.success || !data.result.download_url) {
+            return reply("Failed to fetch the video. Please try again later.");
+        }
+
+        let ytmsg = `📹 *Video Details*
+🎬 *Title:* ${yts.title}
+⏳ *Duration:* ${yts.timestamp}
+👀 *Views:* ${yts.views}
+👤 *Author:* ${yts.author.name}
+🔗 *Link:* ${yts.url}
+
+*Choose download format:*
+1. 📄 Document (no preview)
+2. ▶️ Normal Video (with preview)
+
+_Reply to this message with 1 or 2 to download._`;
+
+        let contextInfo = {
+            mentionedJid: [m.sender],
+            forwardingScore: 999,
+            isForwarded: true,
+            forwardedNewsletterMessageInfo: {
+                newsletterJid: '120363302677217436@newsletter',
+                newsletterName: 'CASEYRHODES-XMD',
+                serverMessageId: 143
+            }
+        };
+
+        // Send thumbnail with options
+        const videoMsg = await conn.sendMessage(from, { image: { url: yts.thumbnail }, caption: ytmsg, contextInfo }, { quoted: mek });
+
+        conn.ev.on("messages.upsert", async (msgUpdate) => {
+            const replyMsg = msgUpdate.messages[0];
+            if (!replyMsg.message || !replyMsg.message.extendedTextMessage) return;
+
+            const selected = replyMsg.message.extendedTextMessage.text.trim();
+
+            if (
+                replyMsg.message.extendedTextMessage.contextInfo &&
+                replyMsg.message.extendedTextMessage.contextInfo.stanzaId === videoMsg.key.id
+            ) {
+                await conn.sendMessage(from, { react: { text: "⬇️", key: replyMsg.key } });
+
+                switch (selected) {
+                    case "1":
+                        await conn.sendMessage(from, {
+                            document: { url: data.result.download_url },
+                            mimetype: "video/mp4",
+                            fileName: `${yts.title}.mp4`,
+                            contextInfo
+                        }, { quoted: replyMsg });
+                        break;
+
+                    case "2":
+                        await conn.sendMessage(from, {
+                            video: { url: data.result.download_url },
+                            mimetype: "video/mp4",
+                            contextInfo
+                        }, { quoted: replyMsg });
+                        break;
+
+                    default:
+                        await conn.sendMessage(
+                            from,
+                            { text: "*Please Reply with ( 1 , 2 or 3) ❤️" },
+                            { quoted: replyMsg }
+                        );
+                        break;
+                }
+            }
+        });
+
+    } catch (e) {
+        console.log(e);
+        reply("An error occurred. Please try again later.");
     }
-
-    // Add processing react
-    await conn.sendMessage(from, { react: { text: '⏳', key: mek.key } });
-
-    // Search for the song on YouTube
-    const query = args.join(" ");
-    const searchResults = await yts(query);
-    if (!searchResults.videos.length) {
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-      return reply("❌ No results found.");
-    }
-
-    const videoUrl = searchResults.videos[0].url;
-
-    // Fetch MP3 download link using the new API
-    const apiUrl = `https://apis.davidcyriltech.my.id/download/ytmp3?url=${videoUrl}`;
-    const response = await axios.get(apiUrl);
-
-    if (!response.data.success || !response.data.result.download_url) {
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-      return reply("❌ Failed to fetch the MP3 file.");
-    }
-
-    const mp3Url = response.data.result.download_url;
-
-    // Send the MP3 as an audio file
-    await conn.sendMessage(from, {
-      audio: { url: mp3Url },
-      mimetype: 'audio/mpeg',
-      ptt: false
-    });
-
-    // Add success react
-    await conn.sendMessage(from, { react: { text: '✅', key: mek.key } });
-
-  } catch (error) {
-    console.error("Error:", error);
-
-    // Add failure react
-    await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-
-    // Send error logs to WhatsApp
-    const errorMessage = `
-*❌ Play Command Error Logs*
-
-*Error Message:* ${error.message}
-*Stack Trace:* ${error.stack || "Not available"}
-*Timestamp:* ${new Date().toISOString()}
-`;
-
-    await conn.sendMessage(from, { text: errorMessage }, { quoted: mek });
-  }
 });
 
+// MP3 song download
+cmd({ 
+    pattern: "song", 
+    alias: ["ytdl3", "play"], 
+    react: "🎶", 
+    desc: "Download YouTube song", 
+    category: "main", 
+    use: '.song < Yt url or Name >', 
+    filename: __filename 
+}, async (conn, mek, m, { from, prefix, quoted, q, reply }) => { 
+    try { 
+        if (!q) return await reply("Please provide a YouTube URL or song name.");
+        
+        const yt = await ytsearch(q);
+        if (yt.results.length < 1) return reply("No results found!");
+        
+        let yts = yt.results[0];  
+        let apiUrl = `https://apis.davidcyriltech.my.id/youtube/mp3?url=${encodeURIComponent(yts.url)}`;
+        
+        let response = await fetch(apiUrl);
+        let data = await response.json();
+        
+        if (data.status !== 200 || !data.success || !data.result.downloadUrl) {
+            return reply("Failed to fetch the audio. Please try again later.");
+        }
+        
+        let ytmsg = `🎵 *Song Details*
+🎶 *Title:* ${yts.title}
+⏳ *Duration:* ${yts.timestamp}
+👀 *Views:* ${yts.views}
+👤 *Author:* ${yts.author.name}
+🔗 *Link:* ${yts.url}
 
-cmd({
-  pattern: "play2",
-  react: '⚡',
-  desc: "Download audio from YouTube",
-  category: "music",
-  use: ".play2 <song name>",
-  filename: __filename
-}, async (conn, mek, msg, { from, args, reply }) => {
-  try {
-    if (!args.length) {
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-      return reply("Please provide a song name. Example: .play2 Dance Monkey");
-    }
+*Choose download format:*
+1. 📄 MP3 as Document
+2. 🎧 MP3 as Audio (Play)
+3. 🎙️ MP3 as Voice Note (PTT)
 
-    // Add processing react
-    await conn.sendMessage(from, { react: { text: '⚡', key: mek.key } });
+_Reply with 1, 2 or 3 to this message to download the format you prefer._`;
+        
+        let contextInfo = {
+            mentionedJid: [m.sender],
+            forwardingScore: 999,
+            isForwarded: true,
+            forwardedNewsletterMessageInfo: {
+                newsletterJid: '120363302677217436@newsletter',
+                newsletterName: 'CASEYRHODES-TECH',
+                serverMessageId: 143
+            }
+        };
+        
+        // Send thumbnail with caption only
+  const songmsg = await conn.sendMessage(from, { image: { url: yts.thumbnail }, caption: ytmsg, contextInfo }, { quoted: mek });
 
-    // Search for the song on YouTube
-    const query = args.join(" ");
-    const searchResults = await yts(query);
-    if (!searchResults.videos.length) {
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-      return reply("❌ No results found.");
-    }
-
-    const videoUrl = searchResults.videos[0].url;
-
-    // Fetch MP3 download link using the new API
-    const apiUrl = `https://apis-keith.vercel.app/download/dlmp3?url=${videoUrl}`;
-    const response = await axios.get(apiUrl);
-
-    if (!response.data.success || !response.data.result.downloadUrl) {
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-      return reply("❌ Failed to fetch the MP3 file.");
-    }
-
-    const mp3Url = response.data.result.downloadUrl;
-
-    // Send the MP3 as an audio file
-    await conn.sendMessage(from, {
-      audio: { url: mp3Url },
-      mimetype: 'audio/mpeg',
-      ptt: false
-    });
-
-    // Add success react
-    await conn.sendMessage(from, { react: { text: '✅', key: mek.key } });
-
-  } catch (error) {
-    console.error("Error:", error);
-
-    // Add failure react
-    await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-
-    // Send error logs to WhatsApp
-    const errorMessage = `
-*❌ Play2 Command Error Logs*
-
-*Error Message:* ${error.message}
-*Stack Trace:* ${error.stack || "Not available"}
-*Timestamp:* ${new Date().toISOString()}
-`;
-
-    await conn.sendMessage(from, { text: errorMessage }, { quoted: mek });
-  }
-});
-
-cmd({
-  pattern: "video2",
-  alias: ["song2"],
-  react: '⚡',
-  desc: "Download video from YouTube",
-  category: "media",
-  use: ".video2 <video name>",
-  filename: __filename
-}, async (conn, mek, msg, { from, args, reply }) => {
-  try {
-    if (!args.length) {
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-      return reply("Please provide a video name. Example: .video2 Pakistani Farzi");
-    }
-
-    // Add processing react
-    await conn.sendMessage(from, { react: { text: '⏳', key: mek.key } });
-
-    // Search for the video on YouTube
-    const query = args.join(" ");
-    const searchResults = await yts(query);
-    if (!searchResults.videos.length) {
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-      return reply("❌ No results found.");
-    }
-
-    const videoUrl = searchResults.videos[0].url;
-
-    // Fetch video download link using the new API
-    const apiUrl = `https://api.agungny.my.id/api/youtube-videov2?url=${videoUrl}`;
-    const response = await axios.get(apiUrl);
-
-    if (!response.data.status || !response.data.result.url) {
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-      return reply("❌ Failed to fetch the video.");
-    }
-
-    const videoUrlDownload = response.data.result.url;
-
-    // Send the video as a file
-    await conn.sendMessage(from, {
-      video: { url: videoUrlDownload },
-      mimetype: 'video/mp4',
-      caption: response.data.result.title,
-      ptt: false
-    });
-
-    // Add success react
-    await conn.sendMessage(from, { react: { text: '✅', key: mek.key } });
-
-  } catch (error) {
-    console.error("Error:", error);
-
-    // Add failure react
-    await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-
-    // Send error logs to WhatsApp
-    const errorMessage = `
-*❌ Video2 Command Error Logs*
-
-*Error Message:* ${error.message}
-*Stack Trace:* ${error.stack || "Not available"}
-*Timestamp:* ${new Date().toISOString()}
-`;
-
-    await conn.sendMessage(from, { text: errorMessage }, { quoted: mek });
-  }
-});
-
-cmd({
-  pattern: "play4",
-  react: '⚡',
-  desc: "Download audio from YouTube",
-  category: "music",
-  use: ".play2 <song name>",
-  filename: __filename
-}, async (conn, mek, msg, { from, args, reply }) => {
-  try {
-    if (!args.length) {
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-      return reply("Please provide a song name. Example: .play2 Moye Moye");
-    }
-
-    // Add processing react
-    await conn.sendMessage(from, { react: { text: '⏳', key: mek.key } });
-
-    // Search for the song on YouTube
-    const query = args.join(" ");
-    const searchResults = await yts(query);
-    if (!searchResults.videos.length) {
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-      return reply("❌ No results found.");
-    }
-
-    const videoUrl = searchResults.videos[0].url;
-
-    // Fetch MP3 download link using the new API
-    const apiUrl = `https://api.agungny.my.id/api/youtube-audiov2?url=${videoUrl}`;
-    const response = await axios.get(apiUrl);
-
-    if (!response.data.status || !response.data.result.url) {
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-      return reply("❌ Failed to fetch the MP3 file.");
-    }
-
-    const mp3Url = response.data.result.url;
-
-    // Send the MP3 as an audio file without caption
-    await conn.sendMessage(from, {
-      audio: { url: mp3Url },
-      mimetype: 'audio/mpeg',
-      ptt: false
-    });
-
-    // Add success react
-    await conn.sendMessage(from, { react: { text: '✅', key: mek.key } });
-
-  } catch (error) {
-    console.error("Error:", error);
-
-    // Add failure react
-    await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-
-    // Send error logs to WhatsApp
-    const errorMessage = `
-*❌ Play2 Command Error Logs*
-
-*Error Message:* ${error.message}
-*Stack Trace:* ${error.stack || "Not available"}
-*Timestamp:* ${new Date().toISOString()}
-`;
-
-    await conn.sendMessage(from, { text: errorMessage }, { quoted: mek });
-  }
-});
-
-
-cmd({  
-  pattern: "video",  
-  alias: ["video"],  
-  react: '⚡',  
-  desc: "Download video from YouTube",  
-  category: "music",  
-  use: ".play <song name>",  
-  filename: __filename  
-}, async (conn, mek, msg, { from, args, reply }) => {  
-  try {  
-    if (!args.length) {  
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });  
-      return reply("Please provide a song name. Example: .play Pakistani Farzi");  
-    }  
-
-    // Add processing react  
-    await conn.sendMessage(from, { react: { text: '⏳', key: mek.key } });  
-
-    // Search for the song on YouTube  
-    const query = args.join(" ");  
-    const searchResults = await yts(query);  
-    if (!searchResults.videos.length) {  
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });  
-      return reply("❌ No results found.");  
-    }  
-
-    const videoUrl = searchResults.videos[0].url;  
-
-    // Fetch video download link using the new API  
-    const apiUrl = `https://api.agungny.my.id/api/youtube-video?url=${videoUrl}`;  
-    const response = await axios.get(apiUrl);  
-
-    if (!response.data.status || !response.data.result.download) {  
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });  
-      return reply("❌ Failed to fetch the video file.");  
-    }  
-
-    const videoUrlDownload = response.data.result.download;  
-    const title = response.data.result.title;  
-
-    // Send the video as a file  
-    await conn.sendMessage(from, {  
-      video: { url: videoUrlDownload },  
-      mimetype: 'video/mp4',  
-      caption: `🎬 *${title}*`  
-    });  
-
-    // Add success react  
-    await conn.sendMessage(from, { react: { text: '✅', key: mek.key } });  
-
-  } catch (error) {  
-    console.error("Error:", error);  
-
-    // Add failure react  
-    await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });  
-
-    // Send error logs to WhatsApp  
-    const errorMessage = `  
-*❌ Play Command Error Logs*  
   
-*Error Message:* ${error.message}  
-*Stack Trace:* ${error.stack || "Not available"}  
-*Timestamp:* ${new Date().toISOString()}  
-`;  
+     
+                     conn.ev.on("messages.upsert", async (msgUpdate) => {
+        
 
-    await conn.sendMessage(from, { text: errorMessage }, { quoted: mek });  
-  }  
-});
+                const mp3msg = msgUpdate.messages[0];
+                if (!mp3msg.message || !mp3msg.message.extendedTextMessage) return;
 
-cmd({  
-  pattern: "play3",  
-  react: '⚡',  
-  desc: "Download audio from YouTube",  
-  category: "music",  
-  use: ".play <song name>",  
-  filename: __filename  
-}, async (conn, mek, msg, { from, args, reply }) => {  
-  try {  
-    if (!args.length) {  
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });  
-      return reply("Please provide a song name. Example: .play Moye Moye");  
-    }  
+                const selectedOption = mp3msg.message.extendedTextMessage.text.trim();
 
-    // Add processing react  
-    await conn.sendMessage(from, { react: { text: '⏳', key: mek.key } });  
+                if (
+                    mp3msg.message.extendedTextMessage.contextInfo &&
+                    mp3msg.message.extendedTextMessage.contextInfo.stanzaId === songmsg.key.id
+                ) {
+                
+                            
+                   await conn.sendMessage(from, { react: { text: "⬇️", key: mp3msg.key } });
 
-    // Search for the song on YouTube  
-    const query = args.join(" ");  
-    const searchResults = await yts(query);  
-    if (!searchResults.videos.length) {  
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });  
-      return reply("❌ No results found.");  
-    }  
+                    switch (selectedOption) {
+case "1":   
 
-    const videoUrl = searchResults.videos[0].url;  
+      
+      
+   await conn.sendMessage(from, { document: { url: data.result.downloadUrl }, mimetype: "audio/mpeg", fileName: `${yts.title}.mp3`, contextInfo }, { quoted: mp3msg });   
+      
+      
+break;
+case "2":   
+await conn.sendMessage(from, { audio: { url: data.result.downloadUrl }, mimetype: "audio/mpeg", contextInfo }, { quoted: mp3msg });
+break;
+case "3":   
+await conn.sendMessage(from, { audio: { url: data.result.downloadUrl }, mimetype: "audio/mpeg", ptt: true, contextInfo }, { quoted: mp3msg });
+break;
 
-    // Fetch MP3 download link using the new API  
-    const apiUrl = `https://api.agungny.my.id/api/youtube-audio?url=${videoUrl}`;  
-    const response = await axios.get(apiUrl);  
 
-    if (!response.data.status || !response.data.result.download) {  
-      await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });  
-      return reply("❌ Failed to fetch the MP3 file.");  
-    }  
-
-    const mp3Url = response.data.result.download;  
-
-    // Send the MP3 as an audio file without caption  
-    await conn.sendMessage(from, {  
-      audio: { url: mp3Url },  
-      mimetype: 'audio/mpeg',  
-      ptt: false  
-    });  
-
-    // Add success react  
-    await conn.sendMessage(from, { react: { text: '✅', key: mek.key } });  
-
-  } catch (error) {  
-    console.error("Error:", error);  
-
-    // Add failure react  
-    await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });  
-
-    // Send error logs to WhatsApp  
-    const errorMessage = `  
-*❌ Play Command Error Logs*  
-  
-*Error Message:* ${error.message}  
-*Stack Trace:* ${error.stack || "Not available"}  
-*Timestamp:* ${new Date().toISOString()}  
-`;  
-
-    await conn.sendMessage(from, { text: errorMessage }, { quoted: mek });  
-  }  
+default:
+                            await conn.sendMessage(
+                                from,
+                                {
+                                    text: "*invalid selection please select between ( 1 or 2 or 3) 🔴*",
+                                },
+                                { quoted: mp3msg }
+                            );
+             }}});
+           
+    } catch (e) {
+        console.log(e);
+        reply("An error occurred. Please try again later.");
+    }
 });
