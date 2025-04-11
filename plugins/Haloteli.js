@@ -9,7 +9,7 @@ const fs = require('fs');
 // don't remove creadit by awaisxd
 
 cmd({
-  'pattern': 'video',
+  'pattern': 'video7',
   'react': '🎬',
   'desc': "Download video from YouTube by searching for keywords.",
   'category': "media",
