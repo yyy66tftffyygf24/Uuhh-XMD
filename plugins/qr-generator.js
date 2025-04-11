@@ -43,7 +43,7 @@ cmd({
     const response = await axios.get(apiUrl, { responseType: 'arraybuffer' });
     const buffer = Buffer.from(response.data, 'binary');
     
-    await conn.sendMessage(m.chat, { image: buffer }, { quoted: m, caption: 'QR Code By ALi Md' });
+    await conn.sendMessage(m.chat, { image: buffer }, { quoted: m, caption: 'QR Code By NEXUS-XMD' });
   } catch (error) {
     console.error(error);
     reply(`An error occurred: ${error.message}`);
