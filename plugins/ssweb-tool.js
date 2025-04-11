@@ -30,7 +30,7 @@ async (conn, mek, m, { from, q, reply }) => {
 
     await conn.sendMessage(from, { 
       image: imageBuffer, 
-      caption: "*📸 WEB SCREENSHOT DOWNLOADER*\n\n> *© Powered By nexus xmd*" 
+      caption: "*📸 WEB SCREENSHOT DOWNLOADER*\n\n> *© Powered By Shaban Md*" 
     }, { quoted: m });
 
   } catch (error) {
