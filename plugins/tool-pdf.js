@@ -4,7 +4,7 @@ const { Buffer } = require('buffer');
 
 cmd({
     pattern: "topdf",
-    alias: "pdf",
+    alias: ["pdf","topdf"],use: '.topdf',
     desc: "Convert provided text to a PDF file.",
     react: "📄",
     category: "utilities",
@@ -25,11 +25,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             await conn.sendMessage(from, {
                 document: pdfData,
                 mimetype: 'application/pdf',
-                fileName: 'NEXUS-D.pdf',
+                fileName: 'JawadTech.pdf',
                 caption: `
 *📄 PDF created successully!*
 
-> © powered by NEXUS-XMD`
+> © Created By JawadTechX 💜`
             }, { quoted: mek });
         });
 
