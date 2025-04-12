@@ -3,7 +3,7 @@ const yts = require("yt-search");
 const axios = require("axios");
 
 cmd({
-  pattern: "playx",
+  pattern: "play7",
   alias: ["yt", "song", "video", "audio"],
   desc: "Download YouTube videos",
   category: "download",
@@ -59,15 +59,15 @@ cmd({
       + `📌 *Reply with the number to download in your choice.*`;
 
     const sentMsg = await conn.sendMessage(from, {
-      image: { url: ytData.thumbnail || "https://i.ibb.co/TBpSgZjn/lordcasey.jpg" },
+      image: { url: ytData.thumbnail || "https://i.ibb.co/nMT095YD/nexus-xmd.jpg" },
       caption: caption,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363302677217436@newsletter",
-          newsletterName: "CASEYRHODES XMD",
+          newsletterJid: "120363288304618280@newsletter",
+          newsletterName: "NEXUS-XMD",
           serverMessageId: 143
         }
       }
@@ -92,7 +92,7 @@ cmd({
           case "1":
             await conn.sendMessage(senderID, {
               video: { url: downloadLink },
-              caption: "*CASEYRHODES XMD*"
+              caption: "*NEXUS-XMD*"
             }, { quoted: receivedMsg });
             break;
 
@@ -101,7 +101,7 @@ cmd({
               document: { url: downloadLink },
               mimetype: "video/mp4",
               fileName: `${ytData.title}.mp4`,
-              caption: "*CASEYRHODES-XMD*"
+              caption: "*NEXUS-XMD*"
             }, { quoted: receivedMsg });
             break;
 
