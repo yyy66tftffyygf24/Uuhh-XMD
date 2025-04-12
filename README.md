@@ -98,5 +98,13 @@
   
 ---
 
+<br>
+<h2 align="center"> ⚠️ Disclaimer ⚠️
+ </h2>
+ 
+ ---
+
+<h3 align="center"> Don't Copy Without Permission 
+</h3>
 
 
