@@ -7,7 +7,7 @@ const axios = require('axios');
 cmd({
     pattern: "menu1",
     desc: "menu the bot",
-    category: "menu2",
+    category: "menu1",
     react: "⚡",
     filename: __filename
 }, 
@@ -49,15 +49,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/7zfdcq.jpg` },
+                image: { url: `https://i.ibb.co/B2ZCSSt3/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: 'Nexus-xmd',
                         serverMessageId: 143
                     }
                 }
@@ -67,7 +67,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/XdTechPro/KHAN-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
+            audio: { url: 'https://files.catbox.moe/lpggim.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
@@ -127,15 +127,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/7zfdcq.jpg` },
+                image: { url: `https://i.ibb.co/bRKjwBMJ/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: "JawadTechX",
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: "Nexus-xmd",
                         serverMessageId: 143
                     }
                 }
@@ -193,15 +193,15 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/7zfdcq.jpg` },
+                image: { url: `https://i.ibb.co/bRKjwBMJ/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: 'Nexus-xmd',
                         serverMessageId: 144
                     }
                 }
@@ -276,15 +276,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/qj853s.jpg` },
+                image: { url: `https://i.ibb.co/bRKjwBMJ/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: 'Nexus-xmd',
                         serverMessageId: 143
                     }
                 }
@@ -354,15 +354,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/pw7ap2.jpg` },
+                image: { url: `https://i.ibb.co/bRKjwBMJ/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: 'Nexus-xmd',
                         serverMessageId: 143
                     }
                 }
@@ -421,15 +421,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/l7evmf.jpg` },
+                image: { url: `https://i.ibb.co/bRKjwBMJ/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: 'Nexus-xmd',
                         serverMessageId: 143
                     }
                 }
@@ -492,15 +492,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/1re1b8.jpg` },
+                image: { url: `https://i.ibb.co/bRKjwBMJ/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: 'Nexus-xmd',
                         serverMessageId: 143
                     }
                 }
@@ -534,7 +534,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• uptime 
 ┃◈┃• repo
 ┃◈┃• owner
-┃◈┃• menu
+┃◈┃• menu1
 ┃◈┃• menu2
 ┃◈┃• restart
 ┃◈└───────────┈⊷
@@ -544,15 +544,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/ebaiwa.jpg` },
+                image: { url: `https://i.ibb.co/bRKjwBMJ/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: 'Nexus-xmd',
                         serverMessageId: 143
                     }
                 }
@@ -603,15 +603,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/pv2zy7.jpg` },
+                image: { url: `https://i.ibb.co/bRKjwBMJ/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: 'Nexus-xmd',
                         serverMessageId: 143
                     }
                 }
@@ -664,15 +664,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/slc08b.jpg` },
+                image: { url: `https://i.ibb.co/bRKjwBMJ/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: 'Nexus-xmd',
                         serverMessageId: 143
                     }
                 }
@@ -733,15 +733,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/ezhijd.jpg` },
+                image: { url: `https://i.ibb.co/bRKjwBMJ/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: 'Nexus-xmd',
                         serverMessageId: 143
                     }
                 }
@@ -792,15 +792,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/90oj1t.jpg` },
+                image: { url: `https://i.ibb.co/bRKjwBMJ/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: 'Nexus-xmd',
                         serverMessageId: 143
                     }
                 }
