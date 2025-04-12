@@ -29,7 +29,7 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://i.ibb.co/spWPCnsf/hanstz.jpg' }, // Image URL from your request
+            image: { url: 'https://i.ibb.co/NnmFGrq3/nexus-xmd.jpg' }, // Image URL from your request
             caption: `
 ╭━〔 *NEXUS-𝐗𝐌𝐃* 〕━┈⊷
 ┃◈╭─────────────·๏
@@ -39,7 +39,7 @@ async (conn, mek, m, { from }) => {
 ┃◈┃• *Version*: 1.0.0
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> ©𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃`, // Display the owner's details
+> ©NEXUS-𝐗𝐌𝐃`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
