@@ -19,7 +19,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 let dec = `    
 ⟣──────────────────⟢
-▧ *ᴄʀᴇᴀᴛᴏʀ* : *ᴍʀ Hanstz  (🇹🇿)*
+▧ *ᴄʀᴇᴀᴛᴏʀ* : *ᴍʀ ᴄᴀsᴇʏʀʜᴏᴅᴇs (🇰🇪)*
 ▧ *ᴍᴏᴅᴇ* : *${config.MODE}*
 ▧ *ᴘʀᴇғɪx* : *${config.PREFIX}*
 ▧ *ʀᴀᴍ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
@@ -28,7 +28,7 @@ let dec = `
 
 ⟣──────────────────⟢
 
-> NEXUS-𝐗𝐌𝐃 
+> 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃 
 
 ⟣──────────────────⟢
 ${readMore}
@@ -39,9 +39,9 @@ https://tinyurl.com/26kh6jss
 
 https://tinyurl.com/26kh6jss
 
-\`NEXUS 𝐗𝐌𝐃\` *Dev🧑‍💻*
+\`𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃\` *Dev🧑‍💻*
 
-wa.me/+254785392165 ?text=Support!
+wa.me/+254112192119?text=Support!
 
 ⟣──────────────────⟢
 
@@ -50,15 +50,15 @@ wa.me/+254785392165 ?text=Support!
 await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/80yt3d.jpg` },
+                image: { url: `https://i.ibb.co/NdGZ99mN/705f0162-de6f-4fb8-a78f-6c563969093c.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363352087070233@newsletter',
-                        newsletterName: '『 NEXUS-𝐗𝐌𝐃 』',
+                        newsletterJid: '120363302677217436@newsletter',
+                        newsletterName: '『 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃 』',
                         serverMessageId: 143
                     }
                 }
