@@ -148,8 +148,8 @@ _Reply with 1, 2 or 3 to this message to download the format you prefer._`;
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363302677217436@newsletter',
-                newsletterName: 'CASEYRHODES-TECH',
+                newsletterJid: '120363288304618280@newsletter',
+                newsletterName: 'NEXUS-XMD',
                 serverMessageId: 143
             }
         };
