@@ -54,7 +54,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/devhanstz/NEXUS-XMD-DATA/raw/refs/heads/main/pkdriller/pkdriller.mp3' }, // Audio URL
+            audio: { url: 'https://files.catbox.moe/ersq63.mp3' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
