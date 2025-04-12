@@ -81,4 +81,22 @@
 [![WhatsApp Channel](https://img.shields.io/badge/Join_WhatsApp_Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x)
 
 
+***
+
+<h2 align="left">⚠️ Reminder ⚠️</h2>
+<p style="text-align: center; font-size: 1.2em;">
+
+- **Disclaimer:** This bot is not affiliated with `WhatsApp Inc.`. Use it at your own risk.
+- Misusing the bot may result in your `WhatsApp` account being banned. Note that you can only unban your account once.
+- I am not responsible for any bans or misuse of the bot. Please keep this warning in mind before proceeding.
+
+---
+
+<h2 align="left">ℹ️ Notice</h2>
+<p style="text-align: center; font-size: 1.2em;">
+  Not For Sale - If any plugin's code is obfuscated, you do not have permission to edit it in any form. Please remember to give credit if you are using or re-uploading my plugins/files. Wishing you a wonderful day ahead!</p>
+  
+---
+
+
 
