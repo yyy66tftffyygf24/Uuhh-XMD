@@ -41,7 +41,7 @@ async (Void, m, { args, reply }) => {
             `${numberList}\n` +
             `│\n` +
             `│ 💡 *Usage:* .otpbox <number>\n` +
-            `╰──「 Powered by *CASEYRHODES-TECH* 」`
+            `╰──「 Powered by *PKDRILLER* 」`
         );
 
     } catch (err) {
@@ -104,7 +104,7 @@ async (conn, m, { args, reply }) => {
             text += `│     *Message:* ${msg.content}\n│\n`;
         }
 
-        text += `╰─ Powered by *CASEYRHODES-TECH*`;
+        text += `╰─ Powered by *PKDRILLER*`;
 
         await reply(text);
     } catch (e) {
