@@ -8,13 +8,13 @@ cmd({
     pattern: "menu",
     desc: "menu the bot",
     category: "menu",
-    react: "💖",
+    react: "🇰🇪",
     filename: __filename
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = `
-╭━〔𝗡𝗢𝗩𝗔-𝗫𝗠𝗗〕━━┈⊷
+╭━〔NEXUS-𝗫𝗠𝗗〕━━┈⊷
 ┃★╭────────────
 ┃★│ Owner : *${config.OWNER_NAME}*
 ┃★│ Baileys : *Multi Device*
@@ -47,15 +47,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/i4491v.jpg` },
+                image: { url: `https://i.ibb.co/Q7wbRDQb/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363382023564830@newsletter',
-                        newsletterName: '💫 𝗡𝗢𝗩𝗔-𝗫𝗠𝗗 💫',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: '🇰🇪 NEXUS-XMD 🇰🇪',
                         serverMessageId: 143
                     }
                 }
@@ -65,7 +65,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/wify3q.mp3' },
+            audio: { url: 'https://files.catbox.moe/tq2ezt.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
@@ -122,15 +122,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/i4491v.jpg` },
+                image: { url: `https://i.ibb.co/VcgZWH6b/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363382023564830@newsletter',
-                        newsletterName: '💫 𝗡𝗢𝗩𝗔-𝗫𝗠𝗗 💫',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: '💫 NEXUS-XMD 💫',
                         serverMessageId: 143
                     }
                 }
@@ -201,15 +201,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/i4491v.jpg` },
+                image: { url: 'https://i.ibb.co/VcgZWH6b/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363382023564830@newsletter',
-                        newsletterName: '💫 𝗡𝗢𝗩𝗔-𝗫𝗠𝗗 💫',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: '💫 NEXUS-XMD 💫',
                         serverMessageId: 143
                     }
                 }
@@ -267,15 +267,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/i4491v.jpg` },
+                image: { url: `https://i.ibb.co/VcgZWH6b/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363382023564830@newsletter',
-                        newsletterName: '💫 𝗡𝗢𝗩𝗔-𝗫𝗠𝗗 💫',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: '💫 NEXUS-XMD 💫',
                         serverMessageId: 143
                     }
                 }
@@ -327,15 +327,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/i4491v.jpg` },
+                image: { url: `https://i.ibb.co/VcgZWH6b/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363382023564830@newsletter',
-                        newsletterName: '💫 𝗡𝗢𝗩𝗔-𝗫𝗠𝗗 💫',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: '💫 NEXUS-XMD 💫',
                         serverMessageId: 143
                     }
                 }
@@ -380,15 +380,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-               image: { url: `https://files.catbox.moe/i4491v.jpg` },
+               image: { url: `https://i.ibb.co/VcgZWH6b/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363382023564830@newsletter',
-                        newsletterName: '💫 𝗡𝗢𝗩𝗔-𝗫𝗠𝗗💫',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: '💫 NEXUS-XMD 💫',
                         serverMessageId: 143
                     }
                 }
@@ -440,15 +440,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/i4491v.jpg` },
+                image: { url: `https://i.ibb.co/VcgZWH6b/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363382023564830@newsletter',
-                        newsletterName: '💫 𝗡𝗢𝗩𝗔-𝗫𝗠𝗗 💫',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: '💫 NEXUS-XMD 💫',
                         serverMessageId: 143
                     }
                 }
@@ -490,15 +490,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/i4491v.jpg` },
+                image: { url: `https://i.ibb.co/VcgZWH6b/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363382023564830@newsletter',
-                        newsletterName: '💫 𝗡𝗢𝗩𝗔-𝗫𝗠𝗗 💫',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: '💫 NEXUS-XMD 💫',
                         serverMessageId: 143
                     }
                 }
@@ -560,15 +560,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/i4491v.jpg` },
+                image: { url: `https://i.ibb.co/VcgZWH6b/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363382023564830@newsletter',
-                        newsletterName: '💫𝗡𝗢𝗩𝗔-𝗫𝗠𝗗 💫',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: '💫NEXUS-XMD 💫',
                         serverMessageId: 143
                     }
                 }
@@ -611,15 +611,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/i4491v.jpg` },
+                image: { url: `https://i.ibb.co/VcgZWH6b/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363382023564830@newsletter',
-                        newsletterName: '💫 𝗡𝗢𝗩𝗔-𝗫𝗠𝗗 💫',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: '💫 NEXUS-XMD 💫',
                         serverMessageId: 143
                     }
                 }
