@@ -26,7 +26,7 @@
 
 <p align="center">
 <b>HEROKU</b><br>
-<a href="https://dashboard.heroku.com/new?template=https://github.com/Pkdriller/NEXUS-XMD">
+<a href="https://pkxmdverificationweb.vercel.app/Pkdriller">
   <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" />
 </a>
 </p>
