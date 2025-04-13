@@ -39,10 +39,10 @@ await conn.sendMessage(from, { text: repo ,
       serverMessageId: 999
     },
 externalAdReply: { 
-title: '𝐀ɭι̇ι̇ 𝐌Ɗ 🍁',
+title: 'pldriller🇰🇪',
 body: `${pushname}`,
 mediaType: 1,
-sourceUrl: "https://github.com/itx-alii-raza/ALI-MD" ,
+sourceUrl: "https://github.com/pkdriller/PK-XMD" ,
 thumbnailUrl: "https://files.catbox.moe/46ebpi.jpeg" ,
 renderLargerThumbnail: true,
 showAdAttribution: true
@@ -97,7 +97,7 @@ async (conn, mek, m, { from, reply }) => {
 https://github.com/pkdriller/NEXUS-XMD
 ──────────────────
 ${readMore}
-\`BOT NAME:\`❄️
+\`BOT NAME:\`🇰🇪
 > ${repoData.name}
 
 \`OWNER NAME:\`👨‍💻
@@ -132,7 +132,7 @@ ${readMore}
 
         // Send the audio file with context info
         await conn.sendMessage(from, {
-            audio: { url: 'https://cdn.ironman.my.id/i/wp4a7x.mp4' },
+            audio: { url: 'https://files.catbox.moe/5ho5yu.mp3' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
