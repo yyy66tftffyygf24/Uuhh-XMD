@@ -88,7 +88,7 @@ async (conn, mek, m, { from, reply }) => {
         // Format the repository information
         const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 NEXUS-XMD 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
 
-> *sɪᴍᴘʟᴇ, ɪᴄʏ, ᴄᴏʟᴅ  & ʀɪᴄʜ ʟᴏᴀᴅᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs, HansTz ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ.*❄️
+> *a whatsapp bot that enhance your experience with amazing features,developed by pkdriller 🇰🇪.*🤍
 
 *𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐄𝐈𝐍𝐆 NEXUS-𝐗𝐌𝐃🫶* 
 
@@ -116,7 +116,7 @@ ${readMore}
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/heu4tc.png` },
+            image: { url: `https://files.catbox.moe/46ebpi.jpeg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
