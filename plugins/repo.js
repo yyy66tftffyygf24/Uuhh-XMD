@@ -35,7 +35,7 @@ await conn.sendMessage(from, { text: repo ,
     isForwarded: false,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363288304618280@newsletter',
-      newsletterName: "𝐀ɭι̇ι̇ 𝐌Ɗ 🍁",
+      newsletterName: "pkdriller 🇰🇪",
       serverMessageId: 999
     },
 externalAdReply: { 
@@ -43,7 +43,7 @@ title: '𝐀ɭι̇ι̇ 𝐌Ɗ 🍁',
 body: `${pushname}`,
 mediaType: 1,
 sourceUrl: "https://github.com/itx-alii-raza/ALI-MD" ,
-thumbnailUrl: "https://i.ibb.co/8Dzbtwj2/mrfrankofc.jpg" ,
+thumbnailUrl: "https://files.catbox.moe/46ebpi.jpeg" ,
 renderLargerThumbnail: true,
 showAdAttribution: true
 }
@@ -90,7 +90,7 @@ async (conn, mek, m, { from, reply }) => {
 
 > *sɪᴍᴘʟᴇ, ɪᴄʏ, ᴄᴏʟᴅ  & ʀɪᴄʜ ʟᴏᴀᴅᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs, HansTz ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ.*❄️
 
-*𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐄𝐈𝐍𝐆 VORTEX-𝐗𝐌𝐃🫶* 
+*𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐄𝐈𝐍𝐆 NEXUS-𝐗𝐌𝐃🫶* 
 
 > *ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴*
 
