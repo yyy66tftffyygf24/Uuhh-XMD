@@ -3,6 +3,14 @@
 </div>
 
 ---
+PURCHASE BOT DIRECT FROM DEVELOPER CLICK HERE
+<p align="center">
+  <a href="https://pr-driller-gho2.onrender.com" target="_blank">
+    <img alt="Pair Code" src="https://img.shields.io/badge/CLICK HERE-⚡ GET YOUR BOT NOW ⚡-gold?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=black"/>
+  </a>
+</p>
+---
+---
 
 <h2 align="center">🚀 Deployment Steps</h2>
 
