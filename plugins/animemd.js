@@ -69,7 +69,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/neko')
 let wm = `🩷 Random neko image
 
-©💫 𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃 💫`
+©💫 Nexus-𝐗𝐌𝐃 💫`
 await conn.sendMessage(from, { image: { url: res.data.url  }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
