@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.ibb.co/FbvxcBF9/nexus-xmd.jpg" alt="Bot Image" width="300"/>
+  <img src="https://files.catbox.moe/tb3we4.jpeg" alt="Bot Image" width="300"/>
 </div>
 
 ---
