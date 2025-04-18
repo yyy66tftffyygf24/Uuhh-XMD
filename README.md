@@ -121,4 +121,4 @@ PURCHASE BOT DIRECT FROM DEVELOPER CLICK HERE
 <h3 align="center"> Don't Copy Without Permission 
 </h3>
 
-
+##OWNER##
