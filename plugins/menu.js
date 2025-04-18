@@ -24,22 +24,22 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │🛠 *Version:* 3.0.0 Bᴇᴛᴀ
 └───────────────
 
-*🐣MENU LIST🐣*
+📌.MENU LIST*
 
-➤ 🕌 *Quranmenu*
-➤ 🕌 .surah1
-➤ 🕌 .surah2
-➤ 🕌 .surah3
-➤ 🕌 .surah4
-➤ 🕌 .surah5
-➤ 🕌 .surah6
-➤ 🕌 .surah7
-➤ 🕌 .surah8
-➤ 🕌 .surah9
-➤ 🕌 .surah10
+🕌 *Quranmenu*
+♦ 🕌 .surah1
+♦🕌 .surah2
+♦🕌 .surah3
+♦🕌 .surah4
+♦🕌 .surah5
+♦🕌 .surah6
+♦🕌 .surah7
+♦ 🕌 .surah8
+♦🕌 .surah9
+♦🕌 .surah10
 _________________________
-➤ 🕋 *Prayertime*
-➤ 🕋 .Prayertime
+📌 N.Prayertime*
+♣🔥 .Prayertime
 _________________________
 ➤ 🤖 *Aimenu*
 ➤ 🤖 .ai
@@ -52,27 +52,27 @@ _________________________
 ➤ 🤖 .wallpaper
 ➤ 🤖 .image
 _________________________
-➤ 🖼️ *AnimeIMGE*
-➤ 🖼️ .anime
-➤ 🖼️ .anime1
-➤ 🖼️ .anime2
-➤ 🖼️ .anime3
-➤ 🖼️ .anime4
-➤ 🖼️ .anime5
-➤ 🖼️ .garl
-➤ 🖼️ .waifu
-➤ 🖼️ .neko
-➤ 🖼️ .maid
-➤ 🖼️ .awoo
-➤ 🖼️ .animegirl
-➤ 🖼️ .animegirl1
-➤ 🖼️ .animegirl2
-➤ 🖼️ .animegirl3
-➤ 🖼️ .animegirl4
-➤ 🖼️ .animegirl5
-➤ 🖼️ .dog
+¶📌N.AnimeIMGE*
+¶🖼️ .anime
+¶🖼️ .anime1
+¶🖼️ .anime2
+¶🖼️ .anime3
+¶🖼️ .anime4
+¶🖼️ .anime5
+¶🖼️ .garl
+¶🖼️ .waifu
+¶🖼️ .neko
+¶🖼️ .maid
+¶🖼️ .awoo
+¶🖼️ .animegirl
+¶🖼️ .animegirl1
+¶🖼️ .animegirl2
+¶🖼️ .animegirl3
+¶🖼️ .animegirl4
+¶🖼️ .animegirl5
+¶🖼️ .dog
 _________________________
-➤ 💬 Reactions
+📌 N.Reactions📌
 ➤ 😍 .cry
 ➤ 😍 .cuddle
 ➤ 😍 .bully
@@ -100,7 +100,7 @@ _________________________
 ➤ 😍 .slap
 ➤ 😍 .kiss
 _________________________
-➤ 🔄 *Convertmenu*
+📌 N.Convertmenu*
 ➤ 🔄 .sticker
 ➤ 🔄 .topdf
 ➤ 🔄 .gif
@@ -116,7 +116,7 @@ _________________________
 ➤ 🔄 .fetch
 ➤ 🔄 .emoji
 _________________________
-➤ 🎉 *Funmenu*
+📌 N.Funmenu*
 ➤ 🎉 .define
 ➤ 🎉 .emix 😀,🤣
 ➤ 🎉 .happy
@@ -137,7 +137,7 @@ _________________________
 ➤ 🎉 .joke
 ➤ 🎉 .hack
 _________________________
-➤ ⬇️ *Dlmenu*
+📌 N.Dlmenu*
 ➤ 🎬 .capcut
 ➤ 🎵 .ringtone
 ➤ 📲 .tiktok2
@@ -165,7 +165,7 @@ _________________________
 ➤ 🎶 .play2
 ➤ 🖼️ .img
 _________________________
-➤ 👥 *Groupmenu*
+📌 N.Groupmenu*
 ➤ 👥 .tagall
 ➤ 👥 .tag
 ➤ 👥 .taggp
@@ -183,7 +183,7 @@ _________________________
 ➤ 👥 .jid1
 ➤ 👥 .gjid
 _________________________
-➤ 🧩 *Othermenu*
+📌N.Othermenu*
 ➤ 🧩 .ytsearch
 ➤ 🧩 .githubstalk
 ➤ 🧩 .tiktokstalk
@@ -200,32 +200,32 @@ _________________________
 ➤ 🧩 .count
 ➤ 🧩 .shapar
 _________________________
-➤ 👑 *Ownermenu*
-➤ 👑 .alive
-➤ 👑 .version
-➤ 👑 .antidelete
-➤ 👑 .pkpayments 
-➤ 👑 .vv
-➤ 👑 .vv2
-➤ 👑 .forward
-➤ 👑 .save
-➤ 👑 .env
-➤ 👑 .allvar
-➤ 👑 .pair
-➤ 👑 .repo
-➤ 👑 .sc
-➤ 👑 .script
-➤ 👑 .update
-➤ 👑 .menu
-➤ 👑 .list
-➤ 👑 .owner
-➤ 👑 .shutdown
-➤ 👑 .broadcast
-➤ 👑 .ping
-➤ 👑 .speed
-➤ 👑 .fetch
-➤ 👑 .report
-➤ 👑.adult
+📌 N.Ownermenu*
+.👑 .alive
+.👑 .version
+.👑 .antidelete
+.👑 .pkpayments 
+.👑 .vv
+.👑 .vv2
+.👑 .forward
+.👑 .save
+.👑 .env
+.👑 .allvar
+.👑 .pair
+.👑 .repo
+.👑 .sc
+.👑 .script
+.👑 .update
+.👑 .menu
+.👑 .list
+.👑 .owner
+.👑 .shutdown
+.👑 .broadcast
+.👑 .ping
+.👑 .speed
+.👑 .fetch
+.👑 .report
+.👑.adult
 _________________________
 
 *${config.DESCRIPTION}*`;
@@ -237,3 +237,4 @@ _________________________
         reply(`${e}`);
     }
 });
+      
