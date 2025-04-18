@@ -21,8 +21,22 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │☁️ *Platform:* Heroku
 │🌐 *Mode:* [${config.MODE}]
 │⚡ *Prefix:* [${config.PREFIX}]
-│🛠 *Version:* 3.0.0 Bᴇᴛᴀ
+│🛠 *Version:* 3.0.0 ★
 └───────────────
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 📌.MENU LIST*
 
@@ -39,18 +53,18 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ♦🕌 .surah10
 _________________________
 📌 N.Prayertime*
-♣🔥 .Prayertime
+★🔥 .Prayertime
 _________________________
-➤ 🤖 *Aimenu*
-➤ 🤖 .ai
-➤ 🤖 .chatgpt2
-➤ 🤖 .openai
-➤ 🤖 .deepseek
-➤ 🤖 .fluxai
-➤ 🤖 .imagine2
-➤ 🤖 .imagine3
-➤ 🤖 .wallpaper
-➤ 🤖 .image
+→ 🤖 *Aimenu*
+→ 🤖 .ai
+→ 🤖 .chatgpt2
+→ 🤖 .openai
+→ 🤖 .deepseek
+→ 🤖 .fluxai
+→ 🤖 .imagine2
+→ 🤖 .imagine3
+→ 🤖 .wallpaper
+→ 🤖 .image
 _________________________
 ¶📌N.AnimeIMGE*
 ¶🖼️ .anime
@@ -73,132 +87,132 @@ _________________________
 ¶🖼️ .dog
 _________________________
 📌 N.Reactions📌
-➤ 😍 .cry
-➤ 😍 .cuddle
-➤ 😍 .bully
-➤ 😍 .hug
-➤ 😍 .awoo
-➤ 😍 .lick
-➤ 😍 .pat
-➤ 😍 .smug
-➤ 😍 .bonk
-➤ 😍 .yeet
-➤ 😍 .blush
-➤ 😍 .handhold
-➤ 😍 .highfive
-➤ 😍 .nom
-➤ 😍 .wave
-➤ 😍 .smile
-➤ 😍 .wink
-➤ 😍 .happy
-➤ 😍 .glomp
-➤ 😍 .bite
-➤ 😍 .poke
-➤ 😍 .cringe
-➤ 😍 .dance
-➤ 😍 .kill
-➤ 😍 .slap
-➤ 😍 .kiss
+◈ 😍 .cry
+◈ 😍 .cuddle
+◈ 😍 .bully
+◈ 😍 .hug
+◈ 😍 .awoo
+◈ 😍 .lick
+◈ 😍 .pat
+◈ 😍 .smug
+◈ 😍 .bonk
+◈ 😍 .yeet
+◈ 😍 .blush
+◈ 😍 .handhold
+◈ 😍 .highfive
+◈ 😍 .nom
+◈ 😍 .wave
+◈ 😍 .smile
+◈ 😍 .wink
+◈ 😍 .happy
+◈ 😍 .glomp
+◈ 😍 .bite
+◈ 😍 .poke
+◈ 😍 .cringe
+◈ 😍 .dance
+◈ 😍 .kill
+◈ 😍 .slap
+◈ 😍 .kiss
 _________________________
 📌 N.Convertmenu*
-➤ 🔄 .sticker
-➤ 🔄 .topdf
-➤ 🔄 .gif
-➤ 🔄 .attp
-➤ 🔄 .tts2
-➤ 🔄 .tts3
-➤ 🔄 .tts
-➤ 🔄 .trt
-➤ 🔄 .fancy
-➤ 🔄 .gitclone
-➤ 🔄 .url
-➤ 🔄 .logo
-➤ 🔄 .fetch
-➤ 🔄 .emoji
+◈ 🔄 .sticker
+◈ 🔄 .topdf
+◈ 🔄 .gif
+◈ 🔄 .attp
+◈ 🔄 .tts2
+◈ 🔄 .tts3
+◈ 🔄 .tts
+◈ 🔄 .trt
+◈ 🔄 .fancy
+◈ 🔄 .gitclone
+◈ 🔄 .url
+◈ 🔄 .logo
+◈ 🔄 .fetch
+◈ 🔄 .emoji
 _________________________
 📌 N.Funmenu*
-➤ 🎉 .define
-➤ 🎉 .emix 😀,🤣
-➤ 🎉 .happy
-➤ 🎉 .heart
-➤ 🎉 .angry
-➤ 🎉 .sad
-➤ 🎉 .shy
-➤ 🎉 .moon
-➤ 🎉 .confused
-➤ 🎉 .hot
-➤ 🎉 .nikal
-➤ 🎉 .compatibility
-➤ 🎉 .aura
-➤ 🎉 .roast
-➤ 🎉 .8ball
-➤ 🎉 .compliment
-➤ 🎉 .lovetest
-➤ 🎉 .joke
-➤ 🎉 .hack
+→ 🎉 .define
+→ 🎉 .emix 😀,🤣
+→ 🎉 .happy
+→ 🎉 .heart
+→ 🎉 .angry
+→ 🎉 .sad
+→ 🎉 .shy
+→ 🎉 .moon
+→ 🎉 .confused
+→ 🎉 .hot
+→ 🎉 .nikal
+→ 🎉 .compatibility
+→ 🎉 .aura
+→ 🎉 .roast
+→ 🎉 .8ball
+→ 🎉 .compliment
+→ 🎉 .lovetest
+→ 🎉 .joke
+→ 🎉 .hack
 _________________________
 📌 N.Dlmenu*
-➤ 🎬 .capcut
-➤ 🎵 .ringtone
-➤ 📲 .tiktok2
-➤ 🎥 .tiktok
-➤ 🔍 .tiktoksearch
-➤ 📸 .Instagram
-➤ 🌀 .facebook
-➤ 👻 .snapchat
-➤ 🐦 .twitter
-➤ 📂 .mediafire
-➤ 📂 .gdrive  
-➤ 📥 .apk
-➤ ⬇️ .gdrive
-➤ 💡 .likee
-➤ 📌 .pinterest
-➤ 🔎 .spotifysearch
-➤ 🔎 .yts
-➤ 🎥 .mp4
-➤ 🎼 .mp3
-➤ 📹 .video
-➤ 🎥 .video2
-➤ 🎞️ .video3
-➤ 🎥 .video5
-➤ 🎧 .play
-➤ 🎶 .play2
-➤ 🖼️ .img
+★ 🎬 .capcut
+★ 🎵 .ringtone
+★ 📲 .tiktok2
+★ 🎥 .tiktok
+★ 🔍 .tiktoksearch
+★ 📸 .Instagram
+★ 🌀 .facebook
+★ 👻 .snapchat
+★ 🐦 .twitter
+★ 📂 .mediafire
+★ 📂 .gdrive  
+★ 📥 .apk
+★ ⬇️ .gdrive
+★ 💡 .likee
+★ 📌 .pinterest
+★ 🔎 .spotifysearch
+★ 🔎 .yts
+★ 🎥 .mp4
+★ 🎼 .mp3
+★ 📹 .video
+★ 🎥 .video2
+→ 🎞️ .video3
+★ 🎥 .video5
+★ 🎧 .play
+★ 🎶 .play2
+★ 🖼️ .img
 _________________________
 📌 N.Groupmenu*
-➤ 👥 .tagall
-➤ 👥 .tag
-➤ 👥 .taggp
-➤ 👥 .hidetag
-➤ 👥 .unmute
-➤ 👥 .unlockgc
-➤ 👥 .kickall
-➤ 👥 .kickall2
-➤ 👥 .kick
-➤ 👥 .removeadmins
-➤ 👥 .leave
-➤ 👥 .join
-➤ 👥 .invite
-➤ 👥 .resetglink
-➤ 👥 .jid1
-➤ 👥 .gjid
+★ 👥 .tagall
+★ 👥 .tag
+★ 👥 .taggp
+★ 👥 .hidetag
+★ 👥 .unmute
+★ 👥 .unlockgc
+★ 👥 .kickall
+★ 👥 .kickall2
+★ 👥 .kick
+★ 👥 .removeadmins
+★ 👥 .leave
+★ 👥 .join
+★ 👥 .invite
+★ 👥 .resetglink
+★ 👥 .jid1
+★ 👥 .gjid
 _________________________
 📌N.Othermenu*
-➤ 🧩 .ytsearch
-➤ 🧩 .githubstalk
-➤ 🧩 .tiktokstalk
-➤ 🧩 .wikipedia
-➤ 🧩 .movie
-➤ 🧩 .srepo
-➤ 🧩 .screenweb
-➤ 🧩 .weather
-➤ 🧩 .rcolor
-➤ 🧩 .roll
-➤ 🧩 .coinflip
-➤ 🧩 .time
-➤ 🧩 .date
-➤ 🧩 .count
-➤ 🧩 .shapar
+↓ 🧩 .ytsearch
+↓ 🧩 .githubstalk
+↓ 🧩 .tiktokstalk
+↓ 🧩 .wikipedia
+↓ 🧩 .movie
+↓ 🧩 .srepo
+↓ 🧩 .screenweb
+↓ 🧩 .weather
+↓ 🧩 .rcolor
+↓ 🧩 .roll
+↓ 🧩 .coinflip
+↓ 🧩 .time
+↓ 🧩 .date
+↓ 🧩 .count
+↓ 🧩 .shapar
 _________________________
 📌 N.Ownermenu*
 .👑 .alive
@@ -226,6 +240,8 @@ _________________________
 .👑 .fetch
 .👑 .report
 .👑.adult
+.👑.pk
+.👑.mpesamenu
 _________________________
 
 *${config.DESCRIPTION}*`;
