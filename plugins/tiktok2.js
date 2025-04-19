@@ -29,7 +29,7 @@ cmd({
       return _0x38160c("Sorry, I couldn't fetch the TikTok content. Please check the link and try again.");
     }
     const _0x596701 = _0x15a6cb.result;
-    const _0x4e57a1 = "╭━━━〔 *CASEYRHODES-XMD* 〕━━━┈⊷\n┃▸╭───────────\n┃▸┃๏ *TIKTOK DOWNLOADER*\n┃▸└───────────···๏\n╰────────────────┈⊷\n╭━━〔 *Post Details* 〕━━┈⊷\n┇๏ *Type:* " + (_0x596701.type || "N/A") + "\n┇๏ *Name:* " + (_0x596701.name || "N/A") + "\n┇๏ *Username:* " + (_0x596701.username || 'N/A') + "\n┇๏ *Views:* " + (_0x596701.views || 0x0) + "\n┇๏ *Likes:* " + (_0x596701.likes || 0x0) + "\n┇๏ *Comments:* " + (_0x596701.comments || 0x0) + "\n┇๏ *Favorites:* " + (_0x596701.favorite || 0x0) + "\n┇๏ *Shares:* " + (_0x596701.shares || 0x0) + "    \n┇๏ *Description:* " + (_0x596701.description || "N/A") + "    \n╰━━━━━━━━━━━━──┈⊷\n> © CASEYRHODES TECH ✅";
+    const _0x4e57a1 = "╭━━━〔 *CASEYRHODES-XMD* 〕━━━┈⊷\n┃▸╭───────────\n┃▸┃๏ *TIKTOK DOWNLOADER*\n┃▸└───────────···๏\n╰────────────────┈⊷\n╭━━〔 *Post Details* 〕━━┈⊷\n┇๏ *Type:* " + (_0x596701.type || "N/A") + "\n┇๏ *Name:* " + (_0x596701.name || "N/A") + "\n┇๏ *Username:* " + (_0x596701.username || 'N/A') + "\n┇๏ *Views:* " + (_0x596701.views || 0x0) + "\n┇๏ *Likes:* " + (_0x596701.likes || 0x0) + "\n┇๏ *Comments:* " + (_0x596701.comments || 0x0) + "\n┇๏ *Favorites:* " + (_0x596701.favorite || 0x0) + "\n┇๏ *Shares:* " + (_0x596701.shares || 0x0) + "    \n┇๏ *Description:* " + (_0x596701.description || "N/A") + "    \n╰━━━━━━━━━━━━──┈⊷\n> © PKDRILLER TECH ✅";
     if (_0x596701.type === "video") {
       await _0x572eda.sendMessage(_0x45c4f6, {
         'video': {
@@ -46,7 +46,7 @@ cmd({
             'image': {
               'url': _0x5746de
             },
-            'caption': "*💜 Image:* " + (_0x1ac338 + 0x1) + "\n\n" + _0x4e57a1
+            'caption': "*🤍 Image:* " + (_0x1ac338 + 0x1) + "\n\n" + _0x4e57a1
           }, {
             'quoted': _0x46523f
           });
