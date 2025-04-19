@@ -1,3 +1,4 @@
+
 <div align="center">
   <img src="https://files.catbox.moe/0vlnn0.jpg" alt="Bot Image" width="300"/>
 </div>
@@ -11,6 +12,12 @@ PURCHASE BOT DIRECT FROM DEVELOPER CLICK HERE
 </p>
 ---
 ---
+</p>
+<p align='center'>
+
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=monospace-ExtraBold&color=blue&lines=𝗙𝗢𝗥𝗞+𝗔𝗡𝗗+𝗦𝗧𝗔𝗥+⭐+𝗥𝗘𝗣𝗢)](https://git.io/typing-svg)
+ <p align="lift">
+ <a 
 
 <h2 align="center">🚀 Deployment Steps</h2>
 
