@@ -42,18 +42,18 @@ cmd({
     ptt: true,
     waveform: [99, 0, 99, 0, 99],
     contextInfo: {
-      forwardingScore: 55555,
+      forwardingScore: 5555,
       isForwarded: true,
       externalAdReply: {
-        title: "𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇",
+        title: "pkdriller  Tech",
         body: "𝐓𝝰̚𝐠͜͡𝗲 𝝪𝐨̚𝝻͜͡𝐫 𝐋𝝾̚𝝼͜͡𝗲 :🦚🍬⛱️🎗️💖",
         mediaType: 4,
-        thumbnailUrl: "https://files.catbox.moe/ord5nm.jpg",
-        sourceUrl: "https://Wa.me/+254781496274",
+        thumbnailUrl: "https://files.catbox.moe/ajgbm3.jpg",
+        sourceUrl: "https://Wa.me/+254785392165",
         showAdAttribution: true
       }
     },
     mentions: [mentionedUser]
   });
 });
-//CODES BY CASEYRHODES 
+//CODES BY PKDRILLER 
