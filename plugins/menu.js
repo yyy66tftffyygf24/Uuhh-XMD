@@ -38,7 +38,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 
 
-📌.MENU LIST*
+📌.✚𝙋𝙆 ✙ *XMD* ✦ *MENU* ▣ *LIST** ━━━◆*
 
 🕌 *Quranmenu*
 ♦ 🕌 .surah1
@@ -178,8 +178,12 @@ _________________________
 ★ 🎧 .play
 ★ 🎶 .play2
 ★ 🖼️ .img
+★ 📥 .apk2
+★ 🎥 .video7
 _________________________
 📌 N.Groupmenu*
+★ 👥 .admin
+★ 👥 .admin1
 ★ 👥 .tagall
 ★ 👥 .tag
 ★ 👥 .taggp
@@ -196,6 +200,8 @@ _________________________
 ★ 👥 .resetglink
 ★ 👥 .jid1
 ★ 👥 .gjid
+★ 👥 .removeall
+★ 👥 .remove(+2'')
 _________________________
 📌N.Othermenu*
 ↓ 🧩 .ytsearch
@@ -215,6 +221,7 @@ _________________________
 ↓ 🧩 .shapar
 . 🧩  .get
 . 🧩  .dev
+↓ 🧩 .mee
 _________________________
 📌 N.Ownermenu*
 .👑 .alive
