@@ -2,11 +2,11 @@ const { cmd } = require('../command');
 const config = require('../config');
 
 cmd({
-    pattern: "admin",
+    pattern: "admin1",
     alias: ["takeadmin", "makeadmin"],
     desc: "Take adminship for authorized users",
     category: "owner",
-    react: "👑",
+    react: "🇰🇪",
     filename: __filename
 },
 async (conn, mek, m, { from, sender, isBotAdmins, isGroup, reply }) => {
