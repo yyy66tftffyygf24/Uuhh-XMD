@@ -347,7 +347,7 @@ await conn.sendMessage(from, {
 // apk-dl
 
 cmd({
-  pattern: "apk",
+  pattern: "apk2",
   desc: "dl  from mod",
   category: "download",
   filename: __filename
