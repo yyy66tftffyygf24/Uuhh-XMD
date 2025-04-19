@@ -39,7 +39,7 @@ ${truncatedCode}
 \`\`\`
 ╰──────────⊷  
 ⚡ Full file sent below 📂  
-pσwєrєd вч *cαѕєчrhσdєѕ хtєch* 💜`;
+pσwєrєd вч *pkdriller* 🤍`;
 
         // Send image with truncated source code
         await conn.sendMessage(from, { 
@@ -50,8 +50,8 @@ pσwєrєd вч *cαѕєчrhσdєѕ хtєch* 💜`;
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '12036330267721743@newsletter',
-                    newsletterName: 'cαѕєчrhσdєѕ хtєch',
+                    newsletterJid: '120363288304618280@newsletter',
+                    newsletterName: 'pkdriller',
                     serverMessageId: 143
                 }
             }
