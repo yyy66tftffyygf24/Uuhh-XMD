@@ -255,7 +255,7 @@ _________________________
 
 *${config.DESCRIPTION}*`;
 
-        await conn.sendMessage(from, { image: { url: `https://files.catbox.moe/dfwhro.jpeg` }, caption: dec }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: `https://files.catbox.moe/ff72f6.jpg` }, caption: dec }, { quoted: mek });
 
     } catch (e) {
         console.log(e);
