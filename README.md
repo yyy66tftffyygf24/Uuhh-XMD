@@ -1,4 +1,4 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=8A2BE2&center=true&width=1000&height=200&lines=NEXUS-XMD+MADE+WITH+LOVE🇰🇪♥️" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=8A2BE2&center=true&width=1000&height=200&lines=NEXUS-XMD+MADE+WITH+LOVE" alt="Typing SVG" /></a>
   </div>
 <div align="center">
   <img src="https://files.catbox.moe/0vlnn0.jpg" alt="Bot Image" width="300"/>
