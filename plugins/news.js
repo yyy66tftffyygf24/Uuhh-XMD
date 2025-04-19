@@ -24,7 +24,7 @@ async (conn, mek, m, { from, reply }) => {
 ⚠️ _${article.description}_
 🔗 _${article.url}_
 
-  © Nexus xmd
+  © 𝐁.𝐌.𝐁-𝐗𝐌𝐃 🇹🇿
             `;
 
             console.log('Article URL:', article.urlToImage); // Log image URL for debugging
