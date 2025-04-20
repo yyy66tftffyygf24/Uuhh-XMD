@@ -23,7 +23,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │⚡ *Prefix:* [${config.PREFIX}]
 │🛠 *Version:* 3.0.0 ★
 └───────────────
-📌.✚𝙋𝙆 ✙ *XMD* ✦ *MENU* ▣ *LIST** ━━━◆*
+📌.✚NEXUS ✙ *XMD* ✦ *MENU* ▣ *LIST** ━━━◆*
 
 🕌 *Quranmenu*
 ♦ 🕌 .surah1
