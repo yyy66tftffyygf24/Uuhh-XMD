@@ -129,4 +129,6 @@ PURCHASE BOT DIRECT FROM DEVELOPER CLICK HERE
 <h3 align="center"> Don't Copy Without Permission 
 </h3>
 
-##OWNER##
+<div align="center">
+  <img src="https://files.catbox.moe/0vlnn0.jpg" alt="Bot Image" width="300"/>
+</div>
