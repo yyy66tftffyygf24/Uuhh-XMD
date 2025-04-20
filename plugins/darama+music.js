@@ -30,8 +30,8 @@ try {
 
 🎧 *ENJOY THE MUSIC BROUGHT TO YOU!*
 
-> *SHABAN-MD WHATSAPP BOT* 
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ-sʜᴀʙᴀɴ* 
+> *NEXUS-XMD WHATSAPP BOT* 
+> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ PKDRILLER* 
 `;
 
     await conn.sendMessage(from, { image: { url: data.thumbnail }, caption: desc }, { quoted: mek });
@@ -49,7 +49,7 @@ try {
         document: { url: downloadUrl },
         mimetype: "audio/mpeg",
         fileName: json.result.title + ".mp3",
-        caption: "*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ-sʜᴀʙᴀɴ*"
+        caption: "*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ PKDRILLER*"
     }, { quoted: mek });
 
 } catch (e) {
@@ -77,7 +77,7 @@ try {
     const url = data.url;
 
     let desc = `
-*⫷⦁SHABAN-MD VⵊDEO DOWNLOADⵊNG⦁⫸*
+*⫷⦁NEXUS-XMD VⵊDEO DOWNLOADⵊNG⦁⫸*
 
 🎥 *VⵊDEO FOUND!* 
 
@@ -89,8 +89,8 @@ try {
 
 🎬 *ENJOY THE VIDEO BROUGHT TO YOU!*
 
-> *SHABAN-MD WHATSAPP BOT* 
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ-sʜᴀʙᴀɴ*
+> *NEXUS-XMD WHATSAPP BOT* 
+> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ PKDRILLER*
 `;
 
     await conn.sendMessage(from, { image: { url: data.thumbnail }, caption: desc }, { quoted: mek });
@@ -108,7 +108,7 @@ try {
         document: { url: downloadUrl },
         mimetype: "video/mp4",
         fileName: json.result.title + ".mp4",
-        caption: "*© SHABAN-MD*"
+        caption: "*© NEXUS-XMD*"
     }, { quoted: mek });
 
 } catch (e) {
