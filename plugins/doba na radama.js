@@ -18,7 +18,7 @@ try {
     const url = data.url;
 
     let desc = `
-*⫷⦁NEZUS-XMD MUSⵊC DOWNLOADⵊNG⦁⫸*
+*⫷⦁NEXUS-XMD MUSⵊC DOWNLOADⵊNG⦁⫸*
 
 🎵 *MUSⵊC FOUND!* 
 
