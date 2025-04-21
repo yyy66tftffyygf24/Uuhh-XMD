@@ -22,7 +22,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃★│ Platform : *Heroku*
 ┃★│ Mode : *[${config.MODE}]*
 ┃★│ Prifix : *[${config.PREFIX}]*
-┃★│ Version : *3.0.0 Bᴇᴛᴀ*
+┃★│ Version : *3.0.0 ★★★*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 🇰🇪*Download Menu🤍* 〕━━┈⊷
@@ -371,7 +371,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/tq2ezt.mp3' },
+            audio: { url: 'https://files.catbox.moe/qddzkl.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
