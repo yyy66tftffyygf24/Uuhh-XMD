@@ -5,7 +5,7 @@ const {runtime} = require('../lib/functions')
 const axios = require('axios')
 
 cmd({
-    pattern: "allmenu",
+    pattern: "menu",
     alias: ["allmenu","fullmenu"],use: '.menu',
     desc: "menu the bot",
     category: "menu",
@@ -22,7 +22,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃★│ Platform : *Heroku*
 ┃★│ Mode : *[${config.MODE}]*
 ┃★│ Prifix : *[${config.PREFIX}]*
-┃★│ Version : *3.0.0 Bᴇᴛᴀ*
+┃★│ Version : *3.0.0 †★‡*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 🇰🇪*Download Menu🤍* 〕━━┈⊷
@@ -48,7 +48,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• play6
 ┃◈┃• play7
 ┃◈┃• play8
-┃◈┃• play9
+┃◈┃• adult
 ┃◈┃• play10
 ┃◈┃• audio
 ┃◈┃• video
@@ -178,7 +178,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈╭─────────────·๏
 ┃◈┃• owner
 ┃◈┃• menu
-┃◈┃• menu2
+┃◈┃• mpesa
 ┃◈┃• vv
 ┃◈┃• listcmd
 ┃◈┃• allmenu
