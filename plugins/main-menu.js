@@ -5,7 +5,7 @@ const {runtime} = require('../lib/functions')
 const axios = require('axios')
 
 cmd({
-    pattern: "allmenu",
+    pattern: "menu",
     alias: ["allmenu","fullmenu"],use: '.menu',
     desc: "menu the bot",
     category: "menu",
@@ -178,10 +178,10 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈╭─────────────·๏
 ┃◈┃• owner
 ┃◈┃• menu
-┃◈┃• menu2
+┃◈┃• mpesa
 ┃◈┃• vv
 ┃◈┃• listcmd
-┃◈┃• allmenu
+┃◈┃• pk
 ┃◈┃• repo
 ┃◈┃• block
 ┃◈┃• unblock
@@ -251,15 +251,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈╭─────────────·๏
 ┃◈┃• ai
 ┃◈┃• gpt3
-┃◈┃• gpt2
+┃◈┃• fluxai
 ┃◈┃• gptmini
 ┃◈┃• gpt
 ┃◈┃• meta
 ┃◈┃• blackbox
 ┃◈┃• luma
 ┃◈┃• dj 
-┃◈┃• khan
-┃◈┃• jawad
+┃◈┃• meta
+┃◈┃• flupro
 ┃◈┃• gpt4
 ┃◈┃• bing
 ┃◈┃• imagine 
@@ -353,7 +353,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/ycxnHr7F/nexus-xmd.jpg` },
+                image: { url: `https://files.catbox.moe/elvblu.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
