@@ -353,7 +353,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/ycxnHr7F/nexus-xmd.jpg` },
+                image: { url: `https://files.catbox.moe/elvblu.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -371,7 +371,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/tq2ezt.mp3' },
+            audio: { url: 'https://files.catbox.moe/qddzkl.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
