@@ -1,6 +1,6 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=8A2BE2&center=true&width=1000&height=200&lines=SHABAN-MD" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=8A2BE2&center=true&width=1000&height=200&lines=NEXUS-XMD" alt="Typing SVG" /></a>
   </div>
-<a><img src='https://i.ibb.co/b5WCv61V/shaban-md.jpg'/></a>
+<a><img src=''/></a>
 
 <p align="center">
   <a href="https://github.com/MRSHABAN40"><img title="Developer" src="https://img.shields.io/badge/Author-SHABAN%20MD-FF00FF.svg?style=big-square&logo=github" /></a>
@@ -65,34 +65,3 @@ href="https://github.com/MRSHABAN40/SHABAN-MD-V5/graphs/commit-activity"><img he
       <td><a href="https://app.netlify.com/" target="_blank"><img src="https://img.shields.io/badge/Netlify-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000"/></a></td>
     </tr>
   </table>
-</div>
-
-## âš ï¸ _WARNING !_
-
-<div style="background-color: #000000; border-left: 5px solid #ff00ff; padding: 10px; border-radius: 0 15px 15px 0; box-shadow: 0 0 15px #ff00ff;">
-  <h3 style="color: #00ffff; font-family: 'Orbitron', sans-serif;">DISCLAIMER</h3>
-  <p style="color: #ffffff;">This bot is not affiliated with WhatsApp Inc. Use at your own risk. Misuse may result in account bans.</p>
-</div>
-
-## ðŸ—ƒï¸ _PROJECT ARCHITECTS_
-<div align="center">
-  <a href="https://github.com/MRSHABAN40">
-    <img src="https://github-readme-stats.vercel.app/api?username=MRSHABAN40&show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
-  </a>
-</div>
-
-## ðŸ¤– _SHABAN-MD STATUS_
-
-```diff
-+ Project Status: Active
-! Version: 3.0.0 Neon Edition
-# License: MIT
-```
-
-
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-  </div>
-
-
-<h1> â„•ð•† ð•ƒð•†ð•ð”¼ ðŸ’” â„•ð•† ð•Šð•‹â„ð”¼ð•Šð•Š <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="45"> </h1>
