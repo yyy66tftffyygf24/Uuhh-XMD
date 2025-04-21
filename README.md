@@ -34,7 +34,7 @@ href="https://github.com/pkdriller/NEXUS-XMD/graphs/commit-activity"><img height
 
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=monospace-ExtraBold&color=blue&lines=𝗙𝗢𝗥𝗞+𝗔𝗡𝗗+𝗦𝗧𝗔𝗥+⭐+𝗥𝗘𝗣𝗢)](https://git.io/typing-svg)
  <p align="lift">
- <a href="https://github.com/pkdriller/NEXUS-XMD/fork"><img title="NEXUS-XMD" src="https://img.shields.io/badge/FORK-NEXUS-XMD-h?color=008000&style=for-the-badge&logo=github"></a>
+ <a href="https://github.com/pkdriller/NEXUS-XMD/fork"><img title="NEXUS-XMD" src="https://img.shields.io/badge/FORK-NEXUS XMD V1-h?color=008000&style=for-the-badge&logo=github"></a>
  
 
   > **⚠️ OPTION ONE**
