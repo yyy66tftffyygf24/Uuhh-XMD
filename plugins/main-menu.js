@@ -34,8 +34,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• Insta
 ┃◈┃• apk
 ┃◈┃• img
-┃◈┃• tt2
-┃◈┃• pins
+┃◈┃• xvideos
+┃◈┃• porn
 ┃◈┃• apk2
 ┃◈┃• fb2
 ┃◈┃• pinterest 
@@ -59,7 +59,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• video6
 ┃◈┃• video7
 ┃◈┃• video8
-┃◈┃• video9
+┃◈┃• adult
 ┃◈┃• video10
 ┃◈┃• ytmp3
 ┃◈┃• ytmp4
