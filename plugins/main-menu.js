@@ -5,7 +5,7 @@ const {runtime} = require('../lib/functions')
 const axios = require('axios')
 
 cmd({
-    pattern: "menu",
+    pattern: "allmenu",
     alias: ["allmenu","fullmenu"],use: '.menu',
     desc: "menu the bot",
     category: "menu",
@@ -22,7 +22,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃★│ Platform : *Heroku*
 ┃★│ Mode : *[${config.MODE}]*
 ┃★│ Prifix : *[${config.PREFIX}]*
-┃★│ Version : *3.0.0 ★★★*
+┃★│ Version : *3.0.0 Bᴇᴛᴀ*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 🇰🇪*Download Menu🤍* 〕━━┈⊷
@@ -34,8 +34,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• Insta
 ┃◈┃• apk
 ┃◈┃• img
-┃◈┃• xvideos
-┃◈┃• porn
+┃◈┃• tt2
+┃◈┃• pins
 ┃◈┃• apk2
 ┃◈┃• fb2
 ┃◈┃• pinterest 
@@ -59,7 +59,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• video6
 ┃◈┃• video7
 ┃◈┃• video8
-┃◈┃• adult
+┃◈┃• video9
 ┃◈┃• video10
 ┃◈┃• ytmp3
 ┃◈┃• ytmp4
@@ -178,10 +178,10 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈╭─────────────·๏
 ┃◈┃• owner
 ┃◈┃• menu
-┃◈┃• mpesa
+┃◈┃• menu2
 ┃◈┃• vv
 ┃◈┃• listcmd
-┃◈┃• pk
+┃◈┃• allmenu
 ┃◈┃• repo
 ┃◈┃• block
 ┃◈┃• unblock
@@ -251,15 +251,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈╭─────────────·๏
 ┃◈┃• ai
 ┃◈┃• gpt3
-┃◈┃• fluxai
+┃◈┃• gpt2
 ┃◈┃• gptmini
 ┃◈┃• gpt
 ┃◈┃• meta
 ┃◈┃• blackbox
 ┃◈┃• luma
 ┃◈┃• dj 
-┃◈┃• meta
-┃◈┃• flupro
+┃◈┃• khan
+┃◈┃• jawad
 ┃◈┃• gpt4
 ┃◈┃• bing
 ┃◈┃• imagine 
@@ -353,7 +353,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/elvblu.jpg` },
+                image: { url: `https://i.ibb.co/ycxnHr7F/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -371,7 +371,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/qddzkl.mp3' },
+            audio: { url: 'https://files.catbox.moe/tq2ezt.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
