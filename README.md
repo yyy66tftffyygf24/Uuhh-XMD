@@ -43,7 +43,7 @@ href="https://github.com/pkdriller/NEXUS-XMD/graphs/commit-activity"><img height
   </a></br>
 
 
-## _♥️ NOW DEPLOY YOUR BOT_
+## _⭐ NOW DEPLOY YOUR BOT_
 
 <div align="center">
   <table>
