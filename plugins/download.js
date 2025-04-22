@@ -923,7 +923,7 @@ cmd({
     let _0x59ba6b = '.' + _0xd2bf2d;
     let _0x5ba56e = _0x10c997.datalist.list[0x0].size / 0xf4240;
     let _0x24e318 = _0x5ba56e - _0x59ba6b;
-    let _0x5d8f45 = "╭━━━〔 *⎝⧹ NEXUS-𝐗𝐌𝐃 ⧸⎠* 〕━━━┈⊷\n┃▸╭───────────\n┃▸┃๏ *APK DOWNLOADER*\n┃▸└───────────···๏\n╰────────────────┈⊷\n╭━━━❐━⪼\n┇๏ *Name* - " + _0x10c997.datalist.list[0x0].name + " \n┇๏ *Size* - " + _0x24e318 + "MB \n┇๏ *Package* - " + _0x10c997.datalist.list[0x0]['package'] + " \n┇๏ *Updated On* - " + _0x10c997.datalist.list[0x0].updated + " \n┇๏ *Developer* - " + _0x10c997.datalist.list[0x0].developer.name + " \n╰━━━❐━⪼\n> *© ⎝⧹ 𝐁.𝐌.𝐁-𝐗𝐌𝐃 ⧸⎠ ♡*";
+    let _0x5d8f45 = "╭━━━〔 *⎝⧹ NEXUS-𝐗𝐌𝐃 ⧸⎠* 〕━━━┈⊷\n┃▸╭───────────\n┃▸┃๏ *APK DOWNLOADER*\n┃▸└───────────···๏\n╰────────────────┈⊷\n╭━━━❐━⪼\n┇๏ *Name* - " + _0x10c997.datalist.list[0x0].name + " \n┇๏ *Size* - " + _0x24e318 + "MB \n┇๏ *Package* - " + _0x10c997.datalist.list[0x0]['package'] + " \n┇๏ *Updated On* - " + _0x10c997.datalist.list[0x0].updated + " \n┇๏ *Developer* - " + _0x10c997.datalist.list[0x0].developer.name + " \n╰━━━❐━⪼\n> *© ⎝⧹NEXUS-XMD ⧸⎠ ♡*";
     await _0x43d4c5.react('⬆');
     await _0x34e5dd.sendMessage(_0x23d582, {
       'document': {
