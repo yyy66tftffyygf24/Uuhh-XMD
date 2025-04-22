@@ -353,7 +353,7 @@ cmd({
               'video': {
                 'url': _0x51b7f4
               },
-              'caption': "*© ⎝⧹ 𝐁.𝐌.𝐁-𝐗𝐌𝐃 ⧸⎠*"
+              'caption': "*© ⎝⧹ NEXUS-𝐗𝐌𝐃 ⧸⎠*"
             }, {
               'quoted': _0x4da097
             });
@@ -653,7 +653,7 @@ cmd({
       return _0x221664("*Please give me url !!*");
     }
     let _0x1c083d = await fetchJson('https://www.dark-yasiya-api.site/download/xvideo?url=' + _0x17784d);
-    const _0x40cfc2 = "\n   🔞 *⎝⧹ 𝐁.𝐌.𝐁-𝐗𝐌𝐃 ⧸⎠ XVIDEO DOWNLOADER* 🔞\n\n     \n• *Title* - " + _0x1c083d.result.title + "\n\n• *Views* - " + _0x1c083d.result.views + "\n\n• *Like* - " + _0x1c083d.result.like + "\n\n• *Deslike* - " + _0x1c083d.result.deslike + "\n\n• *Size* - " + _0x1c083d.result.size;
+    const _0x40cfc2 = "\n   🔞 *⎝⧹ NEXUS-𝐗𝐌𝐃 ⧸⎠ XVIDEO DOWNLOADER* 🔞\n\n     \n• *Title* - " + _0x1c083d.result.title + "\n\n• *Views* - " + _0x1c083d.result.views + "\n\n• *Like* - " + _0x1c083d.result.like + "\n\n• *Deslike* - " + _0x1c083d.result.deslike + "\n\n• *Size* - " + _0x1c083d.result.size;
     await _0xf4b747.sendMessage(_0x2747f2, {
       'video': {
         'url': _0x1c083d.result.dl_link
