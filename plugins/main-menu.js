@@ -8,7 +8,7 @@ cmd({
     pattern: "menu",
     desc: "menu the bot",
     category: "menu",
-    react: "🇰🇪",
+    react: "🤍",
     filename: __filename
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -251,7 +251,7 @@ _________________________
 
 *${config.DESCRIPTION}*`;
 
-        await conn.sendMessage(from, { image: { url: `https://files.catbox.moe/qiwymc.jpg` }, caption: dec }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: `https://i.ibb.co/gZLdygsz/nexus-xmd.jpg` }, caption: dec }, { quoted: mek });
 
     } catch (e) {
         console.log(e);
