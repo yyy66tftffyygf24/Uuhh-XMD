@@ -41,7 +41,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 _________________________
 📌 N.Prayertime
 
-★ 1🔥 .Prayertime
+★ 1 .Prayertime
 _________________________
 ★ 1 *Aimenu*
 ★ 2 .ai
@@ -167,9 +167,9 @@ _________________________
 ★ 20 .video
 ★ 21 .video2
 → 22 .video3
-★ 23 .video5
+★ 23 .video7
 ★ 24 .play
-★ 25 .play2
+★ 25 .play5
 ★ 26 .img
 ★ 27 .apk2
 ★ 28 .video7
@@ -244,9 +244,9 @@ _________________________
 ★ 22 .speed
 ★ 23 .fetch
 ★ 24 .report
-★ 25.adult
-★ 25.pk
-★ 27.mpesamenu
+★ 25 . adult
+★ 25 . pk
+★ 27 . mpesamenu
 _________________________
 
 *${config.DESCRIPTION}*`;
