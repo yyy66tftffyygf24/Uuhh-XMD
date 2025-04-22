@@ -251,33 +251,11 @@ _________________________
 
 *${config.DESCRIPTION}*`;
 
-        // Send the response with image and context info
-      await Matrix.sendMessage(m.from, {
-        image: menuImage,
-        caption: fullResponse,
-        contextInfo: {
-          mentionedJid: [m.sender],
-          forwardingScore: 999,
-          isForwarded: true,
-          forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363398040175935@newsletter',
-            newsletterName: "JawadTechX",
-            serverMessageId: 143
-          }
-        }
-      }, {
-        quoted: receivedMessage
-      });
-    });
-  }
-};
+        await conn.sendMessage(from, { image: { url: `https://files.catbox.moe/qiwymc.jpg` }, caption: dec }, { quoted: mek });
 
-export default menu;
-
-    } catch (e) 
+    } catch (e) {
         console.log(e);
         reply(`${e}`);
-    
+    }
 });
 
-                               
