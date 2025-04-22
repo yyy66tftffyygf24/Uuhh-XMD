@@ -71,3 +71,10 @@ href="https://github.com/pkdriller/NEXUS-XMD/graphs/commit-activity"><img height
 
 ---
 
+[![NEXUS_XMD](https://readme-typing-svg.demolab.com?font=Anton&size=25&pause=998&color=F51FFF&background=F7F2F20A&vCenter=true&random=false&width=340&lines=Have+a%F0%9F%91%8B!+Day;in+God+we+trust;Thanks+all+fam🚀♥️🦜)]
+
+  
+
+
+
+
