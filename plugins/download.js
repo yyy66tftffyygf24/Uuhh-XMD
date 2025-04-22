@@ -98,7 +98,7 @@ cmd({
               'video': {
                 'url': _0x27cf5f.dl_link.download_mp4_2
               },
-              'caption': "*© ⎝⧹ 𝐁.𝐌.𝐁-𝐗𝐌𝐃 ⧸⎠*"
+              'caption': "*© ⎝⧹ NEXUS-𝐗𝐌𝐃 ⧸⎠*"
             }, {
               'quoted': _0x55381c
             });
