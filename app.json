@@ -1,8 +1,8 @@
 {
-  "name": "᯾𝐒𝐇𝐀𝐁𝐀𝐍-𝐌𝐃᯾",
-  "description": "Javascript WhatsApp bot made by 𝐌𝐑/𝐒𝐇𝐀𝐁𝐀𝐍",
-  "logo": "https://i.ibb.co/0jBTY0gS/shaban-md.jpg",
-  "keywords": ["SHABAN-MD"],
+  "name": "NEXUS-XMD",
+  "description": "Javascript WhatsApp bot made by 𝐌𝐑 PKDRILLER",
+  "logo": "https://i.ibb.co/G42RDJdB/nexus-xmd.jpg",
+  "keywords": ["NEXUS-XMD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "♕︎SʜᴀʙᴀɴMᴅ♕︎"
+      "value": "NEXUSXMD"
     }, 
       
     "PREFIX": {
@@ -79,21 +79,21 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SᴇᴇN YᴏᴜʀE SᴛᴀᴛᴜS JᴜsT NᴏW Sʜᴀʙᴀɴ-Mᴅ 𓅓*"
+      "value": "*SᴇᴇN YᴏᴜʀE SᴛᴀᴛᴜS JᴜsT NᴏW NEXUS-XMD 𓅓*"
    
      }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "𝐒𝐇𝐀𝐁𝐀𝐍-𝐌𝐃"
+      "value": "NEXUS-X𝐌𝐃"
 
       }, 
     
     "ALIVE_IMG": {
       "description": "put here the bot Menu url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://i.ibb.co/HLbxFy0M/shaban-md.jpg" 
+      "value": "https://i.ibb.co/G42RDJdB/nexus-xmd.jpg" 
       },
 
     "DELETE_LINK": {
