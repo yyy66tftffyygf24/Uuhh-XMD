@@ -3,7 +3,7 @@ const config = require('../config');
 
 cmd({
     pattern: "owner",
-    react: "🧶", 
+    react: "🚀", 
     desc: "Get owner number",
     category: "main",
     filename: __filename
@@ -29,7 +29,7 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://i.ibb.co/NnmFGrq3/nexus-xmd.jpg' }, // Image URL from your request
+            image: { url: 'https://i.ibb.co/j9ShBQP5/nexus-xmd.jpg' }, // Image URL from your request
             caption: `
 ╭━〔 *NEXUS-𝐗𝐌𝐃* 〕━┈⊷
 ┃◈╭─────────────·๏
