@@ -28,9 +28,9 @@ Hey 👋🏻 ${pushname}
 📅 *Date*: ${currentDate}
 ⏳ *Uptime*: ${runtimeHours} hours, ${runtimeMinutes} minutes, ${runtimeSeconds} seconds
 
-*📡sᴛᴀᴛᴜs*: *sʜᴀʙᴀɴ-ᴍᴅ ᴀʟɪᴠᴇ ᴀɴᴅ ʀᴇᴀᴅʏ*
+*📡sᴛᴀᴛᴜs*: *NEXUS-XMD IS ᴀʟɪᴠᴇ ᴀɴᴅ ʀᴇᴀᴅʏ*
 
-*ᴍᴀᴅᴇ ᴡɪᴛʜ ᴍʀ sʜᴀʙᴀɴ*
+*ᴍᴀᴅᴇ ᴡɪᴛʜ ᴍʀ PKDRILLER*
         `.trim();
 
         // Vérifier si l'image est définie
