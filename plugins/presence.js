@@ -5,7 +5,6 @@ const {cmd , commands} = require('../command')
 
 
 //auto recording
-
 cmd({
   on: "body"
 },    
@@ -17,49 +16,25 @@ async (conn, mek, m, { from, body, isOwner }) => {
    );
 
 //auto_voice
-
 cmd({
   on: "body"
 },    
 async (conn, mek, m, { from, body, isOwner }) => {
     const filePath = path.join(__dirname, '../data/autovoice.json');
-
-    // File existence & JSON error handle karein
-    if (!fs.existsSync(filePath) || fs.readFileSync(filePath, "utf8").trim() === "") {
-        fs.writeFileSync(filePath, JSON.stringify({}, null, 2));
-    }
-
-    let data = {};
-    try {
-        data = JSON.parse(fs.readFileSync(filePath, "utf8"));
-    } catch (error) {
-        console.error("JSON Parsing Error in autovoice.json:", error);
-        return;
-    }
-
-    console.log("Received Body:", body);
-    console.log("Loaded Data from JSON:", data);
-
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     for (const text in data) {
         if (body.toLowerCase() === text.toLowerCase()) {
+            
             if (config.AUTO_VOICE === 'true') {
+                //if (isOwner) return;        
                 await conn.sendPresenceUpdate('recording', from);
-                if (data[text]) {  // Ensure ke value exist karti hai
-                    await conn.sendMessage(from, { 
-                        audio: { url: data[text] }, 
-                        mimetype: 'audio/mpeg', 
-                        ptt: true 
-                    }, { quoted: mek });
-                } else {
-                    console.error("Audio file not found for:", text);
-                }
+                await conn.sendMessage(from, { audio: { url: data[text] }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek });
             }
         }
     }                
 });
 
-//auto sticker
-
+//auto sticker 
 cmd({
   on: "body"
 },    
@@ -71,7 +46,7 @@ async (conn, mek, m, { from, body, isOwner }) => {
             
             if (config.AUTO_STICKER === 'true') {
                 //if (isOwner) return;        
-                await conn.sendMessage(from,{sticker: { url : data[text]},package: 'SHABAN-SOBX-MD'},{ quoted: mek })   
+                await conn.sendMessage(from,{sticker: { url : data[text]},package: 'KHAN-MD'},{ quoted: mek })   
             
             }
         }
@@ -79,7 +54,6 @@ async (conn, mek, m, { from, body, isOwner }) => {
 });
 
 //auto reply 
-
 cmd({
   on: "body"
 },    
@@ -99,7 +73,6 @@ async (conn, mek, m, { from, body, isOwner }) => {
 });
 
 // Composing (Auto Typing)
-
 cmd({
     on: "body"
 },    
@@ -109,16 +82,39 @@ async (conn, mek, m, { from, body, isOwner }) => {
     }
 });
 
-// Public Mod
 
+// Always Online
 cmd({
   on: "body"
 }, async (conn, mek, m, { from, isOwner }) => {
   try {
-    if (config.ALWAYS_ONLINE === 'true') {
+    if (config.ALWAYS_ONLINE === "true") {
+      // Always Online Mode: Bot always appears online (double tick)
+      await conn.sendPresenceUpdate("available", from);
+    } else {
+      // Dynamic Mode: Adjust presence based on owner's status
+      if (isOwner) {
+        // If the owner is online, show as available (double tick)
+        await conn.sendPresenceUpdate("available", from);
+      } else {
+        // If the owner is offline, show as unavailable (single tick)
+        await conn.sendPresenceUpdate("unavailable", from);
+      }
+    }
+  } catch (e) {
+    console.log(e);
+  }
+});
+
+// Public Mod
+cmd({
+  on: "body"
+}, async (conn, mek, m, { from, isOwner }) => {
+  try {
+    if (config.ALWAYS_ONLINE === "true") {
       // Public Mode + Always Online: Always show as online
       await conn.sendPresenceUpdate("available", from);
-    } else if (config.PUBLIC_MODE === 'true') {
+    } else if (config.PUBLIC_MODE === "true") {
       // Public Mode + Dynamic: Respect owner's presence
       if (isOwner) {
         // If owner is online, show available
@@ -132,4 +128,3 @@ cmd({
     console.log(e);
   }
 });
-              

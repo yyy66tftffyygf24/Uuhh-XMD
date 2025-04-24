@@ -22,8 +22,8 @@ cmd({
 
   try {
     reply(`🔎 Searching Spotify for: *${query}*`);
-    
-    const response = await fetch(`https://api.diioffc.web.id/api/search/spotify?query=${encodeURIComponent(query)}`);
+
+    const response = await fetch(`https://apis-keith.vercel.app/search/spotify?q=${encodeURIComponent(query)}`);
     const data = await response.json();
 
     if (!data || !data.status || !data.result || data.result.length === 0) {
@@ -36,10 +36,12 @@ cmd({
 
     for (const track of results) {
       const message = `🎶 *Spotify Track Result*:\n\n`
-        + `*• Track Name*: ${track.trackName}\n`
-        + `*• Artist*: ${track.artistName}\n`
-        + `*• Track Number*: ${track.trackNumber}\n`
-        + `*• URL*: ${track.externalUrl}\n\n`;
+        + `*• Title*: ${track.title}\n`
+        + `*• Artist*: ${track.artist}\n`
+        + `*• Album*: ${track.album}\n`
+        + `*• Duration*: ${track.duration.formatted}\n`
+        + `*• Release Date*: ${track.releaseDate}\n`
+        + `*• URL*: ${track.url}\n`;
 
       reply(message);
     }

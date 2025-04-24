@@ -3,45 +3,60 @@ const { cmd, commands } = require('../command');
 
 cmd({
     pattern: "ping",
-    alias: ["speed", "pong", "p"],
-    use: '.ping',
-    desc: "Check bot's response time with a VIP touch.",
+    alias: "speed",
+    desc: "Check bot's response time.",
     category: "main",
-    react: "⚡",
+    react: "🌏",
     filename: __filename
 },
-async (conn, mek, m, { from, quoted, sender, reply }) => {
+async (conn, mek, m, { from, quoted, reply }) => {
     try {
-        const start = Date.now(); // Execution start time
+        const startTime = Date.now();
 
-        const reactionEmojis = ['🚛', '🚚', '🚜', '🚒', '🚐', '🛻', '🚗', '🚙', '🏎️', '🏍️'];
-        const textEmojis = ['🚁', '🛸', '⚡️', '🚀', '🛩️', '🎠', '🚍', '🚔', '🚘', '🚖'];
+        // Add a short delay
+        await new Promise(resolve => setTimeout(resolve, 100)); // 100M/s delay
 
-        const reactionEmoji = reactionEmojis[Math.floor(Math.random() * reactionEmojis.length)];
-        const filteredEmojis = textEmojis.filter(e => e !== reactionEmoji);
-        const textEmoji = filteredEmojis[Math.floor(Math.random() * filteredEmojis.length)];
+        const endTime = Date.now();
+        const ping = endTime - startTime;
 
-        // Send reaction
-        await conn.sendMessage(from, {
-            react: { text: textEmoji, key: m.key }
-        });
-
-        const responseTime = Date.now() - start; // Calculate response time
-
-        // VIP style response
-        const text = `*SHABAN-MD SERVER SPEED:* 🐦‍🔥  
-🚀 *Response Time:* ${responseTime}ms ${reactionEmoji}  
-👑 *Status:* Ultra-Fast 🦅`;
-
-        await conn.sendMessage(from, {
-            text,
+        // Send the ping result
+        await conn.sendMessage(from, { 
+            text: `*NEXUS-XMD 😌 SPEED: ${ping}M/s*`, 
             contextInfo: {
-                mentionedJid: [sender]
+                mentionedJid: [m.sender],
+                forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363288304618280@newsletter',
+                    newsletterName: 'NEXUS-XMDING SPEED 😌',
+                    serverMessageId: 143
+                }
             }
         }, { quoted: mek });
-
     } catch (e) {
-        console.error("Error in ping command:", e);
-        reply(`❌ *Error:* ${e.message}`);
+        console.error(e);
+        reply(`An error occurred: ${e.message}`);
     }
 });
+
+// ping2 
+
+cmd({
+    pattern: "ping2",
+    desc: "Check bot's response time.",
+    category: "main",
+    react: "🎃",
+    filename: __filename
+},
+async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const startTime = Date.now()
+        const message = await conn.sendMessage(from, { text: '> *SPEED...*' })
+        const endTime = Date.now()
+        const ping = endTime - startTime
+        await conn.sendMessage(from, { text: `*NEXUS-XMD 😌😌 SPEED : ${ping}M/s*` }, { quoted: message })
+    } catch (e) {
+        console.log(e)
+        reply(`${e}`)
+    }
+})
