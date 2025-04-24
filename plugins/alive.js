@@ -2,7 +2,7 @@ const { cmd } = require("../command");
 const moment = require("moment");
 
 let botStartTime = Date.now(); // Enregistrement de l'heure de démarrage du bot
-const ALIVE_IMG = "https://i.ibb.co/NnKCgWdC/shaban-md.jpg"; // Assurez-vous que cette URL est valide
+const ALIVE_IMG = "https://i.ibb.co/Fq4VFJ0f/nexus-xmd.jpg"; // Assurez-vous que cette URL est valide
 
 cmd({
     pattern: "alive",
@@ -22,7 +22,7 @@ cmd({
         const runtimeHours = Math.floor(runtimeMilliseconds / (1000 * 60 * 60));
 
         const formattedInfo = `
-🌟 *SHABAN-MD STATUS* 🌟
+🌟 *NEXUS-XMD STATUS* 🌟
 Hey 👋🏻 ${pushname}
 🕒 *Time*: ${currentTime}
 📅 *Date*: ${currentDate}
@@ -34,7 +34,7 @@ Hey 👋🏻 ${pushname}
         `.trim();
 
         // Vérifier si l'image est définie
-        if (!ALIVE_IMG || !ALIVE_IMG.startsWith("http")) {
+        if (!ALIVE_IMG || !ALIVE_IMG.startsWith("https")) {
             throw new Error("Invalid ALIVE_IMG URL. Please set a valid image URL.");
         }
 
@@ -47,8 +47,8 @@ Hey 👋🏻 ${pushname}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363358310754973@newsletter',
-                    newsletterName: 'Sʜᴀʙᴀɴ-Mᴅ',
+                    newsletterJid: '120363288304618280@newsletter',
+                    newsletterName: 'Pkdrillet',
                     serverMessageId: 143
                 }
             }
