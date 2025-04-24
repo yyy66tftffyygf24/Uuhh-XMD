@@ -61,8 +61,8 @@ try {
 //====================video_dl=======================
 
 cmd({
-    pattern: "darama1",
-    alias: ["video1"],
+    pattern: "darama",
+    alias: ["video"],
     desc: "To download videos.",
     react: "🎥",
     category: "download",
