@@ -3,7 +3,7 @@ const config = require('../config');
 
 cmd({
     pattern: "owner",
-    react: "🚀", 
+    react: "🔥", 
     desc: "Get owner number",
     category: "main",
     filename: __filename
@@ -29,9 +29,9 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://i.ibb.co/j9ShBQP5/nexus-xmd.jpg' }, // Image URL from your request
+            image: { url: 'https://files.catbox.moe/s7pzei.jpg' }, // Image URL from your request
             caption: `
-╭━〔 *NEXUS-𝐗𝐌𝐃* 〕━┈⊷
+╭━〔 *🔥𝐁.𝐌.𝐁-𝐗𝐌𝐃🔥* 〕━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -39,14 +39,14 @@ async (conn, mek, m, { from }) => {
 ┃◈┃• *Version*: 1.0.0
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> ©NEXUS-𝐗𝐌𝐃`, // Display the owner's details
+> ©𝐁.𝐌.𝐁-𝐗𝐌𝐃`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363288304618280@newsletter',
-                    newsletterName: 'NEXUS DEVS 😌',
+                    newsletterJid: '120363382023564830@newsletter',
+                    newsletterName: 'BMB DEVS 🔥',
                     serverMessageId: 143
                 }            
             }
@@ -54,7 +54,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: '' }, // Audio URL
+            audio: { url: 'https://github.com/bmb300/NOVA-XMD-DATA/raw/refs/heads/main/KingHans/HansTz.mp3' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
