@@ -94,7 +94,7 @@ async (conn, mek, m, { from, reply }) => {
 
 > *ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴*
 
-https://github.com/bmbxmd/B.M.B-XMD
+https://github.com/pkdriller/NEXUS-XMD 
 ──────────────────
 ${readMore}
 \`BOT NAME:\`🪀
