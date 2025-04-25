@@ -21,29 +21,31 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │☁️ *Platform:* Heroku
 │🌐 *Mode:* [${config.MODE}]
 │⚡ *Prefix:* [${config.PREFIX}]
-│🛠 *Version:* 3.0.0 ★
+│🛠 *Version:* 3.0.0 ★‡†
 └───────────────
 
 
 ©MR PK DRILLER 
-📌Quranmenu
+📌 QURAN-MENU 🪀
 
-★ 2 .surah1
-★ 3 .surah2
-★ 4.surah3
-★ 5 .surah4
-★ 6.surah5
-★ 7.surah6
-★ 8.surah7
-★ 9.surah8
-★ 10.surah9
-★ 11.surah10
+★ 1 .surah1
+★ 2 .surah2
+★ 3.surah3
+★ 4 .surah4
+★ 5.surah5
+★ 6.surah6
+★ 7.surah7
+★ 8.surah8
+★ 9.surah9
+★ 10.surah10
 _________________________
-📌 N.Prayertime
+📌 PRAYERTIME 🪀
 
 ★ 1 .Prayertime
 _________________________
-★ 1 *Aimenu*
+  📌 AI-MENU🪀
+  
+★ 1 Fluxpro
 ★ 2 .ai
 ★ 3 .chatgpt2
 ★ 4 .openai
@@ -54,7 +56,7 @@ _________________________
 ★ 9 .wallpaper
 ★ 10 .image
 _________________________
-📌N.AnimeIMGE
+📌 ANIME-MENU 🪀
 
 ★ 1 .anime
 ★ 2 .anime1
@@ -75,7 +77,7 @@ _________________________
 ★ 17 .animegirl5
 ★ 18 .dog
 _________________________
-📌 N.Reactions📌
+📌 REACTIONS-MENU🪀
 
 ★  1 .cry
 ★ 2 .cuddle
@@ -104,7 +106,7 @@ _________________________
 ★ 25 .slap
 ★ 26 .kiss
 _________________________
-📌 N.Convertmenu
+📌 CONVERTER-MENU🪀
 
 ★ 1 .sticker
 ★ 2 .topdf
@@ -121,7 +123,7 @@ _________________________
 ★ 13 .fetch
 ★ 14 .emoji
 _________________________
-📌 N.Funmenu
+📌 FUN-MENU🪀
 
 ★ 1 .define
 ★ 2 .emix 
@@ -143,7 +145,7 @@ _________________________
 ★ 18 .joke
 ★ 19 .hack
 _________________________
-📌 N.Dlmenu
+📌 DL-MENU🪀
 
 ★ 1 .capcut
 ★ 2 .ringtone
@@ -174,7 +176,7 @@ _________________________
 ★ 27 .apk2
 ★ 28 .video7
 _________________________
-📌 N.Groupmenu
+📌 GROUP-MENU🪀
 
 ★ 1 .admin
 ★ 2 .admin1
@@ -186,7 +188,7 @@ _________________________
 ★ 8 .unlockgc
 ★ 9 .kickall
 ★ 10 .kickall2
-★ 11 .kick
+★ 11 .out
 ★ 12 .removeadmins
 ★ 13 .leave
 ★ 14 .join
@@ -197,7 +199,7 @@ _________________________
 ★ 19 .removeall
 ★ 20 .remove(+2'')
 _________________________
-📌N.Othermenu
+📌OTHER-MENU🪀
 
 ★ 1 .ytsearch
 ★ 2 .githubstalk
@@ -218,7 +220,7 @@ _________________________
 ★ 17  .dev
 ★ 18 .mee
 _________________________
-📌 N.Ownermenu
+📌 OWNER-MENU🪀
 
 ★ 1 .alive
 ★ 2 .version
@@ -245,7 +247,7 @@ _________________________
 ★ 23 .fetch
 ★ 24 .report
 ★ 25 . adult
-★ 25 . pk
+★ 25 . nexus
 ★ 27 . mpesamenu
 _________________________
 
