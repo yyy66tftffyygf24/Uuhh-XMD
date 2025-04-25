@@ -19,7 +19,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 let dec = `    
 ⟣──────────────────⟢
-▧ *ᴄʀᴇᴀᴛᴏʀ* : *B.M.B-XMD  (🇹🇿)*
+▧ *ᴄʀᴇᴀᴛᴏʀ* : *NEXUS-XMD  (🪀)*
 ▧ *ᴍᴏᴅᴇ* : *${config.MODE}*
 ▧ *ᴘʀᴇғɪx* : *${config.PREFIX}*
 ▧ *ʀᴀᴍ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
@@ -28,20 +28,20 @@ let dec = `
 
 ⟣──────────────────⟢
 
-> 🔥𝐁.𝐌.𝐁-𝐗𝐌𝐃🔥 
+> 🔥 NEXUS-BOT 🔥 
 
 ⟣──────────────────⟢
 ${readMore}
 \ CHANNEL🛠️\
-https://whatsapp.com/channel/0029VawO6hgF6sn7k3SuVU3z
+https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
 
 \ GROUP\ 👥
 
-https://chat.whatsapp.com/JpIXcc3AndB3d9pdK2Cg1I
+https://chat.whatsapp.com/CP8daWdavnXF11826hxius
 
-\ 𝐁.𝐌.𝐁-𝐗𝐌𝐃\ *Dev🧑‍💻*
+\ NEXUS-XMD\ *Dev🧑‍💻*
 
-wa.me/+255767862457 ?text=Support!
+wa.me/+254785392165 ?text=Support!
 
 ⟣──────────────────⟢
 
@@ -50,15 +50,15 @@ wa.me/+255767862457 ?text=Support!
 await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/s7pzei.jpg` },
+                image: { url: `https://i.ibb.co/W4xhtdW8/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363382023564830@newsletter',
-                        newsletterName: '『 🔥𝐁.𝐌.𝐁-𝐗𝐌𝐃🔥 』',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: '『 🔥 NEXUS-XMD 🔥 』',
                         serverMessageId: 143
                     }
                 }
