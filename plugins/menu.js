@@ -14,7 +14,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = `
-╭━〔𝐁.𝐌.𝐁-𝐗𝐌𝐃〕━━┈⊷
+╭━〔NEXUS-XMD〕━━┈⊷
 ┃★╭────────────
 ┃★│ Owner : *${config.OWNER_NAME}*
 ┃★│ Baileys : *Multi Device*
@@ -238,15 +238,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/BY2HCkh/nexus-xmd.jpg` },
+                image: { url: `https://i.ibb.co/W4xhtdW8/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363382023564830@newsletter',
-                        newsletterName: '🔥 𝐁.𝐌.𝐁-𝐗𝐌𝐃 🔥',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: '🔥 NEXUS-XMD 🔥',
                         serverMessageId: 143
                     }
                 }
