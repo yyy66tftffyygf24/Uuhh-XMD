@@ -80,7 +80,7 @@ console.log("Session downloaded ✅")
   //=============================================
   
   async function connectToWA() {
-  console.log("Connecting CASEYRHODES XMD to WhatsApp ⏳️...");
+  console.log("Connecting NEXUS-XMD to WhatsApp ⏳️...");
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
   var { version } = await fetchLatestBaileysVersion()
   
@@ -100,7 +100,7 @@ console.log("Session downloaded ✅")
   connectToWA()
   }
   } else if (connection === 'open') {
-  console.log('🧬 Installing CASEYRHODES XMD Plugins')
+  console.log('🧬 Installing NEXUS-XMD Plugins')
   const path = require('path');
   fs.readdirSync("./plugins/").forEach((plugin) => {
   if (path.extname(plugin).toLowerCase() == ".js") {
@@ -110,12 +110,12 @@ console.log("Session downloaded ✅")
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there ✦ CASEY ✦ RHODES ✦ XMD ✦ User! \ud83d\udc4b\ud83c\udffb* \n\n> This is auser friendly whatsapp bot created by PKDRILLER TECH INC. \ud83c\udf8a, Meet ✦ NEXUS XMD ✦ WhatsApp Bot.\n\n *Thanks for using ✦ NEX ✦ US XMD ✦ \ud83d\udea9* \n\n> follow WhatsApp Channel :- 💖\n \nhttps://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/pkdriller/NEXUS-XMD\n\n> © Powered BY ✦ NEXUS ✦ XMD ✦ \ud83d\udda4`;
+  let up = `*Hello there ✦ NE ✦ XUS ✦ XMD ✦ User! \ud83d\udc4b\ud83c\udffb* \n\n> This is auser friendly whatsapp bot created by PKDRILLER TECH INC. \ud83c\udf8a, Meet ✦ NEXUS XMD ✦ WhatsApp Bot.\n\n *Thanks for using ✦ NEX ✦ US XMD ✦ \ud83d\udea9* \n\n> follow WhatsApp Channel :- 💖\n \nhttps://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/pkdriller/NEXUS-XMD\n\n> © Powered BY ✦ NEXUS ✦ XMD ✦ \ud83d\udda4`;
   conn.sendMessage(conn.user.id, { image: { url: `*Image Uploaded Successfully 📸*
 Size: 217600 Byte(s)
 *URL:* https://i.ibb.co/Kzbdr49w/nexus-xmd.jpg
 
-> ⚖️ Uploaded via pkdriller` }, caption: up })
+> ⚖️ Uploaded via Pkdriller` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)  
