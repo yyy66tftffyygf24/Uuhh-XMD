@@ -70,7 +70,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/bmbxmd/B.M.B-XMD';
+    const githubRepoURL = 'https://github.com/pkdriller/NEXUS-XMD';
 
     try {
         // Extract username and repo name from the URL
@@ -86,18 +86,18 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 🔥B.M.B-XMD🔥 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!* 
+        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 🔥 NEXUS-XMD 🔥 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!* 
 
-> *a whatsapp bot that enhance your experience with amazing features,developed by 𝙱.𝙼.𝙱-𝚇𝙼𝙳🇹🇿.*🔥
+> *a whatsapp bot that enhance your experience with amazing features,developed by PKDRILLER.*🔥
 
-*𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐄𝐈𝐍𝐆 🔥B.M.B-𝐗𝐌𝐃🔥* 
+*𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐄𝐈𝐍𝐆 🔥NEXUS-𝐗𝐌𝐃🔥* 
 
 > *ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴*
 
 https://github.com/bmbxmd/B.M.B-XMD
 ──────────────────
 ${readMore}
-\`BOT NAME:\`🇹🇿
+\`BOT NAME:\`🪀
 > ${repoData.name}
 
 \`OWNER NAME:\`👨‍💻
@@ -112,19 +112,19 @@ ${readMore}
 \`DESCRIPTION:\`📃
 > ${repoData.description || 'No description'}\n
 ──────────────────
-\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙱.𝙼.𝙱-𝚇𝙼𝙳* 🎐`;
+\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ NEXUS-XMD* 🎐`;
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/s7pzei.jpg` },
+            image: { url: `https://i.ibb.co/W4xhtdW8/nexus-xmd.jpg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363382023564830@newsletter',
-                    newsletterName: '☇ bmbxmd suppσrt  ⃪🔥𝆺𝅥',
+                    newsletterJid: '120363288304618280@newsletter',
+                    newsletterName: '☇ nexus-xmd suppσrt  ⃪🔥𝆺𝅥',
                     serverMessageId: 143
                 }
             }
@@ -140,8 +140,8 @@ ${readMore}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363382023564830@newsletter',
-                    newsletterName: '☇ bmbxmd suppσrt⃪🤖͎᪳᪳𝆺𝅥',
+                    newsletterJid: '120363288304618280@newsletter',
+                    newsletterName: '☇ pkdriller suppσrt⃪🤖͎᪳᪳𝆺𝅥',
                     serverMessageId: 143
                 }
             }
