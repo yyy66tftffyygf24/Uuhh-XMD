@@ -23,7 +23,7 @@ OWNER_NAME: process.env.OWNER_NAME || "✦ NEXUS ✦ XMD ✦",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ✦ NEXUS ✦ XMD ✦*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://i.imgur.com/PEZ5QL2.jpeg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/u4rqiq.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> NEXUS XMD IS SPARKING ACTIVE AND ALIVE\n\n\nKEEP USING CASEYRHODES XMD FROM CASEYRHODES TECH INC⚡",
 // add alive msg here 
