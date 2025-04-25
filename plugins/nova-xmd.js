@@ -36,7 +36,7 @@ cmd({
         'forwardingScore': 0x3e7,
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
-          'newsletterJid': '120363382023564830@newsletter',
+          'newsletterJid': '120363288304618280@newsletter',
           'newsletterName': "❄️『 🔥 NEXUS-XMD 🔥 』❄️",
           'serverMessageId': 0x8f
         }
