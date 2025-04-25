@@ -43,13 +43,13 @@ cmd({
     const repoData = response.data;
 
     // Prepare repository information message
-    let repoInfo = "📁_*GITHUB REPO INFO BY VORTEX TECH*_📁\n\n";
+    let repoInfo = "📁_*GITHUB REPO INFO BY PKDRILLER TECH*_📁\n\n";
     repoInfo += `📌 *Name*: ${repoData.name}\n`;
     repoInfo += `🔗 *URL*: ${repoData.html_url}\n`;
     repoInfo += `📝 *Description*: ${repoData.description || "No description provided"}\n`;
     repoInfo += `⭐ *Stars*: ${repoData.stargazers_count}\n`;
     repoInfo += `🍴 *Forks*: ${repoData.forks_count}\n\n`;
-    repoInfo += "> *© Powered By 𝐁.𝐌.𝐁-𝐗𝐌𝐃 *\n";
+    repoInfo += "> *© Powered By NEXUS-𝐗𝐌𝐃 *\n";
 
     // Send repository info as a message
     await conn.sendMessage(from, { text: repoInfo }, { quoted });
