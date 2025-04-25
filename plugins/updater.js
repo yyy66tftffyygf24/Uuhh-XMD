@@ -17,7 +17,7 @@ cmd({
   }  
 
   try {  
-    await reply("```🔍 Checking for 𝐁.𝐌.𝐁-𝐗𝐌𝐃 updates...```\n");  
+    await reply("```🔍 Checking for NEXUS-XMD updates...```\n");  
       
     // Get latest commit from GitHub  
     const { data: commitData } = await axios.get("https://api.github.com/repos/caswyweb/NOVA-XMD/commits/main");  
@@ -33,10 +33,10 @@ cmd({
     }  
 
     if (latestCommitHash === currentHash) {  
-      return reply("```✅ Your 𝐁.𝐌.𝐁-𝐗𝐌𝐃 bot is already up-to-date!```\n");  
+      return reply("```✅ Your NEXUS-XMD bot is already up-to-date!```\n");  
     }  
 
-    await reply("```𝐁.𝐌.𝐁-𝐗𝐌𝐃 Bot Updating...🚀```\n");  
+    await reply("```NEXUS-XMD Bot Updating...🚀```\n");  
       
     // Download latest code  
     const zipPath = path.join(__dirname, "latest.zip");  
