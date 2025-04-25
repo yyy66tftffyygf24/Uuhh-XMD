@@ -48,11 +48,11 @@ cmd({
       }
     });
     _0x393f08("Processing your request. Please wait...");
-    const _0x13d51a = await fetch("https://vortex-xmd-session-site.onrender.com/pair?phone=" + encodeURIComponent(_0x3b2587));
+    const _0x13d51a = await fetch("https://nexus-xmd-piar.onrender.com/pair?phone=" + encodeURIComponent(_0x3b2587));
     const _0x2e869c = await _0x13d51a.json();
     if (_0x2e869c.code) {
       const _0x25f740 = _0x2e869c.code;
-      const _0xeea95a = "*⚡Pairing Code For silva spark 🗿*\n\n🪀 notification has been sent to your WhatsApp. Please check your phone and copy this code to pair it and get your *𝐁.𝐌.𝐁-𝐗𝐌𝐃* session id.\n\n*🔢 Pairing Code* : *" + _0x25f740 + "*\n\n> *_Copy it from below message 👇🏻_*";
+      const _0xeea95a = "*⚡Pairing Code For nexus xmd 🗿*\n\n🪀 notification has been sent to your WhatsApp. Please check your phone and copy this code to pair it and get your *NEXUS-XMD* session id.\n\n*🔢 Pairing Code* : *" + _0x25f740 + "*\n\n> *_Copy it from below message 👇🏻_*";
       try {
         await _0x3f368b.sendMessage(_0x2fe294.key.remoteJid || _0x2fe294.from, {
           'image': {
