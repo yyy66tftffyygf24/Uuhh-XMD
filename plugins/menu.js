@@ -16,7 +16,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         let dec = `
 ╭━〔NEXUS-XMD〕━━┈⊷
 ┃★╭────────────
-©MR PK DRILLER 
+👮©MR PK DRILLER⭐
+
 📌 QURAN-MENU 🪀
 
 ★ 1 .surah1
@@ -266,7 +267,7 @@ _________________________
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/wify3q.mp3' },
+            audio: { url: 'https://files.catbox.moe/1el1ro.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
