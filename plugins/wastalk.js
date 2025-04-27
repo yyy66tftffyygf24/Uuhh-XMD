@@ -13,7 +13,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const url = q || (quoted?.text ?? "").trim();
 
         if (!url || !url.includes("whatsapp.com/channel/")) {
-            return reply(`Please provide a valid WhatsApp Channel URL.\n\n*Example:* .wastalk https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E`);
+            return reply(`Please provide a valid WhatsApp Channel URL.\n\n*Example:* .https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x`);
         }
 
         const res = await axios.get(`https://apis-keith.vercel.app/stalker/wachannel?url=${encodeURIComponent(url)}`);
@@ -38,8 +38,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: 'CASEYRHODES TECH 👻',
+                    newsletterJid: '120363382023564830@newsletter',
+                    newsletterName: 'SMART TECH',
                     serverMessageId: 143
                 }
             }
