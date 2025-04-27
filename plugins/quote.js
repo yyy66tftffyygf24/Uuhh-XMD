@@ -3,7 +3,7 @@ const {
   cmd
 } = require("../command");
 cmd({
-  'pattern': "quote",
+  'pattern': "quote1",
   'desc': "Get a random inspiring quote.",
   'category': "fun",
   'react': '💬',
