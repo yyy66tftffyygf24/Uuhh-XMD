@@ -18,6 +18,13 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃★╭────────────
 👮©MR PK DRILLER⭐
 
+📌PK EXTRA CMDS🪀
+★ 1 .porn
+★ 2 .xvideos 
+★ 3 .tempmail 
+★ 2 .tempnumber 
+★ 3 .nexus
+
 📌 QURAN-MENU 🪀
 
 ★ 1 .surah1
