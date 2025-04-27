@@ -267,7 +267,7 @@ _________________________
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363382023564830@newsletter',
+                        newsletterJid: '120363288304618280@newsletter',
                         newsletterName: '🚀 NEXUS-XMD 🪀',
                         serverMessageId: 143
                     }
