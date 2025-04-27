@@ -24,6 +24,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ★ 3 .tempmail 
 ★ 2 .tempnumber 
 ★ 3 .nexus
+★ 4 .wastalk 
 
 📌 QURAN-MENU 🪀
 
