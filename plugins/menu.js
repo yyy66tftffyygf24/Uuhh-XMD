@@ -248,7 +248,7 @@ _________________________
 ★ 22 .speed
 ★ 23 .fetch
 ★ 24 .report
-★ 25 . adult
+★ 25 . support 
 ★ 25 . nexus
 ★ 27 . mpesamenu
 ★ 28 . setprefix 
