@@ -38,10 +38,8 @@
       "description": "select your bot work type public-private-inbox-group.",
       "required": false,
       "value": "public"
-      
-    },
-        }, 
-
+     },  
+   
     "ADMIN_EVENTS": {
       "description": "make it true if want know who promote or demote a member .",
       "required": false,
@@ -52,8 +50,8 @@
       "description": "make it true if want goodbye and welcome message in groups.",
       "required": false,
       "value": "true"
-    
-    
+     },
+      
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
       "required": false,
