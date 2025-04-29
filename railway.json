@@ -1,7 +1,7 @@
 {
-  "name": "TONIC-MD",
-  "description": "For deploying TONIC-MD.",
-  "repository": "https://github.com/tonicmeef/TONIC-MD",
+  "name": "NEXUS-XMD",
+  "description": "For deploying NEXUS-XMD.",
+  "repository": "https://github.com/Pkdriller/NEXUS-XMD",
   "build": {
     "commands": {
       "install": "yarn install",
