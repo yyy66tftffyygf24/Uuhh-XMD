@@ -106,8 +106,8 @@ cmd({
           'forwardingScore': 0x3e7,
           'isForwarded': true,
           'forwardedNewsletterMessageInfo': {
-            'newsletterJid': "120363302677217436@newsletter",
-            'newsletterName': "ã€Ž ð‚ð€ð’ð„ð˜ð‘ð‡ðŽðƒð„ð’ ð“ð„ðŒððŒð€ðˆð‹ ã€",
+            'newsletterJid': "120363288304618280@newsletter",
+            'newsletterName': "smart tech",
             'serverMessageId': 0x8f
           }
         }
@@ -147,8 +147,8 @@ cmd({
           'forwardingScore': 0x3e7,
           'isForwarded': true,
           'forwardedNewsletterMessageInfo': {
-            'newsletterJid': "120363302677217436@newsletter",
-            'newsletterName': "ã€Ž ð‚ð€ð’ð„ð˜ð‘ð‡ðŽðƒð„ð’ ð“ð„ðŒððŒð€ðˆð‹ ã€",
+            'newsletterJid': "120363288304618280@newsletter",
+            'newsletterName': "smart tech",
             'serverMessageId': 0x8f
           }
         }
