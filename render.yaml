@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: TONIC-MD
+    name: NEXUS-XMD
     env: node
     region: singapore
     buildCommand: "yarn install"
