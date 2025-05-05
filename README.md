@@ -52,7 +52,7 @@ href="https://github.com/pkdriller/NEXUS-XMD/graphs/commit-activity"><img height
   <tr>
     <td>
       <a href="https://nexus-xmd-deployment-sites.vercel.app/" target="_blank">
-        <img alt="deployment sites" src="https://img.shields.io/badge/View-Workflow%20Codes-FF0076?style=for-the-badge&logo=githubactions&logoColor=white"/>
+        <img alt="deployment sites" src="https://img.shields.io/badge/View-deployment%20sites-FF0076?style=for-the-badge&logo=githubactions&logoColor=white"/>
       </a>
     </td>
   </tr>
