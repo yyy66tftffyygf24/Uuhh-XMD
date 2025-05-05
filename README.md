@@ -48,7 +48,7 @@ href="https://github.com/pkdriller/NEXUS-XMD/graphs/commit-activity"><img height
 
 ## _⭐ DEPLOYMENT_SITES_CLICK_HERE_
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
- <a href="https://dashboard.heroku.com/new?template=https://nexus-xmd-deployment-sites.vercel.app/"><img title="DEPLOY- NOW " src="https://img.shields.io/badge/DEPLOY-ON HEROKU-h?color=red&style=for-the-badge&logo=nike" width="220" height="38.45"/></a></p>
+ <a href="https://nexus-xmd-deployment-sites.vercel.app/?template=https://nexus-xmd-deployment-sites.vercel.app/"><img title="DEPLOY- NOW " src="https://img.shields.io/badge/DEPLOY-NOW-h?color=red&style=for-the-badge&logo=nike" width="320" height="38.45"/></a></p>
 
  
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=▭+▬+▭+▬+▭+▬+▭+▬+▭+▬+▭)](https://git.io/typing-svg) 
