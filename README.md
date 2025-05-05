@@ -46,7 +46,7 @@ href="https://github.com/pkdriller/NEXUS-XMD/graphs/commit-activity"><img height
   </a></br>
 
 
-## _⭐ DEPLOYMENT_SITES_CLICK_HERE_
+## _⭐ DEPLOYMENT-SITES_CLICK-HERE_
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
  <a href="https://nexus-xmd-deployment-sites.vercel.app/?template=https://nexus-xmd-deployment-sites.vercel.app/"><img title="DEPLOY- NOW " src="https://img.shields.io/badge/DEPLOY-NOW-h?color=red&style=for-the-badge&logo=nike" width="320" height="38.45"/></a></p>
 
