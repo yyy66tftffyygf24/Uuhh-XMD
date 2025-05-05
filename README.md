@@ -48,11 +48,15 @@ href="https://github.com/pkdriller/NEXUS-XMD/graphs/commit-activity"><img height
 
 ## _⭐ DEPLOYMENT_SITES_CLICK_HERE_
 
-<div align="center">
-  <table>
-    <tr>
-      <td><a href="https://nexus-xmd-deployment-sites.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=vercel&logoColor=green&labelColor=000000&color=0000FF"/></a></td>
-      <td><a 
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://nexus-xmd-deployment-sites.vercel.app/" target="_blank">
+        <img alt="deployment sites" src="https://img.shields.io/badge/View-Workflow%20Codes-FF0076?style=for-the-badge&logo=githubactions&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
+</table>  
 
 
 <br>
