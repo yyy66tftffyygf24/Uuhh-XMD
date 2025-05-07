@@ -63,9 +63,6 @@ href="https://github.com/pkdriller/NEXUS-XMD/graphs/commit-activity"><img height
 
 ---
 
-![NEXUS_XMD](https://readme-typing-svg.demolab.com?font=Anton&size=25&pause=998&color=F51FFF&background=F7F2F20A&vCenter=true&random=false&width=340&lines=Have+a%F0%9F%91%8B!+Day;updates+are+always+done;Thanks+all+fam🚀♥️🦜)
-
-  
 ---
 ***
 <a href="https://mr-pk-web.vercel.app/"><img src="https://img.shields.io/badge/NEXUS%20XMD%20WEB-skyblue" alt="NEXUS_XMD_WEB" width="270"></a>
