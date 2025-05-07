@@ -55,13 +55,10 @@ href="https://github.com/pkdriller/NEXUS-XMD/graphs/commit-activity"><img height
 <a href='https://railway.app/new' target="_blank"><img alt='Railway' src='https://img.shields.io/badge/-Railway%20Deploy-red?style=for-the-badge&logo=railway&logoColor=white'/></a>
 </p>
 
-
-
- 
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=▭+▬+▭+▬+▭+▬+▭+▬+▭+▬+▭)](https://git.io/typing-svg) 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a
-<br>
+
 
 ⭐ Follow My GitHub ⭐
 [![Follow My GitHub](https://img.shields.io/static/v1?label=Follow%20My%20GitHub&message=Account&color=800000&style=for-the-badge&logo=github&logoColor=pink)](https://github.com/pkdriller)  
