@@ -38,17 +38,24 @@ href="https://github.com/pkdriller/NEXUS-XMD/graphs/commit-activity"><img height
  
 
   > **⚠️ OPTION ONE**
-  <a href='https://nexus-xmd-pair-code.onrender.com' target="_blank">
-    <img src='https://img.shields.io/badge/PAIR_CODE_1-800080?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
-  </a></br>
-  <a href='https://nexus-xmd-pair.vercel.app/' target="_blank">
-    <img src='https://img.shields.io/badge/PAIR_CODE_2-800080?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000500'/>
-  </a></br>
 
 
-## _⭐ DEPLOYMENT-SITES_CLICK-HERE_
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
- <a href="https://nexus-xmd-deployment-sites.vercel.app/?template=https://nexus-xmd-deployment-sites.vercel.app/"><img title="DEPLOY- NOW " src="https://img.shields.io/badge/DEPLOY-NOW-h?color=red&style=for-the-badge&logo=nike" width="320" height="38.45"/></a></p>
+  <a href=""><img title="DEPLOY-NOW" src="https://img.shields.io/badge/PAIR-SESSION-h?color=blue&style=for-the-badge&logo=nike" width="230" height="38.45"/></a></p>  
+
+
+
+<h4 align="left">1. 𝐇𝐄𝐑𝐎𝐊𝐔</h4>
+<p align="left">
+<a href='https://pkxmdverificationweb.vercel.app/Pkdriller?template=https://pkxmdverificationweb.vercel.app/Pkdriller' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Heroku%20Deploy-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+</p>
+
+
+<h4 align="left">3. 𝐑𝐀𝐈𝐋𝐖𝐀𝐘𝐒</h4>
+<p align="left">
+<a href='https://railway.app/new' target="_blank"><img alt='Railway' src='https://img.shields.io/badge/-Railway%20Deploy-red?style=for-the-badge&logo=railway&logoColor=white'/></a>
+</p>
+
+
 
  
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=▭+▬+▭+▬+▭+▬+▭+▬+▭+▬+▭)](https://git.io/typing-svg) 
