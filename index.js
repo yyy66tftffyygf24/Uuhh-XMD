@@ -43,7 +43,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['254794146821']
+  const ownerNumber = ['25494146821']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -114,8 +114,9 @@ const port = process.env.PORT || 9090;
   
   let up = `*✨ Hello, NEXUS-XMD Legend! ✨*
 
-╭─〔 *🤖 NEXUS-XMD BOT* 〕  
-├─▸ *Simplicity. Speed. Power. BY PK DRILLER*  
+╭─〔 *🤖 POPKID-XTECH BOT* 〕  
+├─▸ *Simplicity. Speed. Power. BY PK.  
+|    DRILLER!*  
 ╰─➤ *Your New WhatsApp Sidekick is Here!*
 
 *❤️ Thank you for Choosing NEXUS-XMD!*
@@ -213,7 +214,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('254794146821', '254794146821', '254794146821');
+    const jawad = ('254111385747', '254732297194', '254756466053');
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -260,7 +261,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("254794146821")){
+  if(senderNumber.includes("254732297194")){
   if(isReact) return
   m.react("💙")
    }
@@ -742,7 +743,7 @@ if (!isReact && senderNumber === botNumber) {
                         global.email
                     }\nitem2.X-ABLabel:GitHub\nitem3.URL:https://github.com/${
                         global.github
-                    }/nexus-xmd\nitem3.X-ABLabel:GitHub\nitem4.ADR:;;${
+                    }/khan-xmd\nitem3.X-ABLabel:GitHub\nitem4.ADR:;;${
                         global.location
                     };;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
                 });
@@ -783,7 +784,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("NEXUS-XMD IS  STARTED ✅");
+  res.send("NEXUS IS  STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
