@@ -1,8 +1,8 @@
 {
   "name": "B.M.B-XMD-V2",
-  "description": "Javascript WhatsApp bot made by bmb200",
-  "logo": "https://files.catbox.moe/ewjggk.jpg",
-  "keywords": ["B.M.B-XMD-V2"],
+  "description": "Javascript WhatsApp bot made by Pkdriller",
+  "logo": "https://files.catbox.moe/o3mkn9.jpeg",
+  "keywords": ["NEXUS-XMD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "B.M.B-XMD-V2"
+      "value": "NEXUS-XMD"
     }, 
       
     "PREFIX": {
@@ -79,27 +79,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY B.M.B-XMD-V2 🖤*"
+      "value": "*SEEN YOUR STATUS BY NEXUS-XMD 🖤*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "ʙ.ᴍ.ʙ-xᴍᴅ-ᴠ2"
+      "value": "Pkdriller"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "255767862457"
+      "value": "254794146821"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "B.M.B-XMD-V2"
+      "value": "NEXUS-XMD"
 
       }, 
 
@@ -125,13 +125,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/1dk28f.jpg"
+      "value": "https://files.catbox.moe/o3mkn9.jpeg"
     },
      
     "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙ.ᴍ.ʙ-xᴍᴅ-ᴠ2*"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Pkdriller*"
     },
 
       "DELETE_LINKS": {
