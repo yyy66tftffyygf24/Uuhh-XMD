@@ -1,6 +1,6 @@
-name: nexus-xmd
+name: b.m.b-xmd-v2
 services:
-  - name: Nexus-xmd
+  - name: b.m.b-xmd-v2-service
     type: web
     ports:
       - 5000
