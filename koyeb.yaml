@@ -1,6 +1,6 @@
 name: nexus-xmd
 services:
-  - name: nexus-xmd
+  - name: popkid_xtech-service
     type: web
     ports:
       - 5000
